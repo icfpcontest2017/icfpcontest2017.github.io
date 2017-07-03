@@ -6,14 +6,15 @@ The root password is also "icfp2017".  Note that during the contest your
 program will be evaluated on a standard user account and will not have
 root permissions.
 
-The VM comes in OVA format, which is supported by VirtualBox, VMWare and
-other virtualization software. The VM by default has 4GB of RAM and 2
-CPUs.  You can adjust these values to better match your host machine.
-The operating system installed on the VM is Debian 8, with no swap
-partition.  You could add one on your own but if you really need it then
-this is an indication you're in trouble - there will be a limit on
-memory usage during solution evaluation.  Below is a list of software
-installed on the VM and available during the contest.
+The VM comes in OVA format, which is supported by VirtualBox, VMWare
+and other virtualization software. The VM by default has 4GB of RAM
+and 2 CPUs. You can adjust these values to better match your host
+machine. The operating system installed on the VM is Debian 9, with no
+swap partition. You could add one on your own but if you really need
+it then this is an indication that you are in trouble --- there will
+be a limit on memory usage during solution evaluation. Below is a list
+of software currently installed on the VM and available during the
+contest.
 
 
 ## Programming languages and compilers
