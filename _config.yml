@@ -1,0 +1,20 @@
+# Jekyll Defaults
+title: ICFP Programming Contest 2017
+description: The website for the 2017 ICFP Programming Contest
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "https://icfpcontest2017.github.io"
+highlighter: rouge
+markdown: kramdown
+permalink: /post/:title/
+paginate: 4
+gems: [jekyll-paginate, jekyll-twitter-plugin]
+paginate_path: "/page:num"
+rss_path: /feed.xml
+navigation:
+- text: Problem Specification
+  url: /problem/
+- text: Archives
+  url: /archives/
+- text: Tags
+  url: /tags/
