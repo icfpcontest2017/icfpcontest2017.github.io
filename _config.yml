@@ -8,7 +8,7 @@ highlighter: rouge
 markdown: kramdown
 permalink: /post/:title/
 paginate: 4
-gems: [jekyll-paginate, jekyll-twitter-plugin]
+gems: [jekyll-paginate, jekyll-twitter-plugin, jekyll-last-modified-at]
 paginate_path: "/page:num"
 rss_path: /feed.xml
 navigation:
