@@ -1,9 +1,9 @@
 # Jekyll Defaults
 title: ICFP Programming Contest 2017
 description: The website for the 2017 ICFP Programming Contest
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/icfpcontest2017-dev" # the subpath of your site, e.g. /blog
 
-url: "https://icfpcontest2017.github.io"
+url: "/icfpcontest2017-dev"
 highlighter: rouge
 markdown: kramdown
 permalink: /post/:title/
