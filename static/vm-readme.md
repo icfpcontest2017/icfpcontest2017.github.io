@@ -29,6 +29,7 @@ contest.
   * D (gdc 6.3.0)
   * Erlang 8.2.1
   * F# 4.0
+  * F* 0.9.3.0-beta1
   * Forth (gforth 0.7.3)
   * Fortran (gfortran 7.1.0)
   * Haskell (GHC 8.0.1)
@@ -43,6 +44,7 @@ contest.
   * Perl 5.24.1
   * Prolog (SWI Prolog 7.2.3)
   * Python (python: 2.7.13, python3: 3.5.3)
+  * PyPy 5.6.0
   * R 4.2.1
   * Racket 6.7
   * Ruby 2.3.3p222
@@ -52,6 +54,7 @@ contest.
   * Standard ML (MLton 20130715, SML of New Jersey 110.79)
   * Tcl 8.6
   * TeX (TeX Live 2016/Debian)
+  * Z3 4.4.1
 
 
 ## Editors
