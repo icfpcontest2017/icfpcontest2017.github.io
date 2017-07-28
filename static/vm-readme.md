@@ -20,31 +20,37 @@ contest.
 ## Programming languages and compilers
 
   * Agda 2.5.2
+  * Bash 4.4.12
   * C (gcc 7.1.0)
-  * C# (mono-mcs 4.0.0.0)
+  * C# (mono-mcs 5.0.1.1)
   * Clojure 1.8.0
   * COBOL (OpenCobol 1.1.0)
-  * Common Lisp (sbcl 1.3.14)
+  * Common Lisp (sbcl 1.3.19)
   * C++ (g++ 7.1.0)
   * D (gdc 6.3.0)
+  * Dotnet 2.0.0-preview2-006497
   * Erlang 8.2.1
-  * F# 4.0
+  * F# 4.1
   * F* 0.9.3.0-beta1
   * Forth (gforth 0.7.3)
   * Fortran (gfortran 7.1.0)
   * Haskell (GHC 8.0.1)
   * Go 1.7.4
+  * Groovy 2.4.8
   * Idris 1.0
-  * Java (JDK 1.8.0u131)
-  * JavaScript (nodejs 4.8.2)
+  * Java (JDK 1.8.0u141)
+  * JavaScript (nodejs 8.2.1)
+  * Kotlin 1.1.3-2
   * Links 0.6.1 (invoke as "rlwrap linx")
   * LLVM + Clang 3.8 (clang-3.8)
   * LLVM + Clang 4.0 (clang-4.0)
   * OCaml 4.04.1
   * Perl 5.24.1
+  * PHP 7.0.19-1
   * Prolog (SWI Prolog 7.2.3)
-  * Python (python: 2.7.13, python3: 3.5.3)
+  * Python (python: 2.7.13, python3: 3.5.3, python3.6: 3.6.2)
   * PyPy 5.6.0
+  * Pyret (compiled from git repository; located in $HOME/pyret-lang)
   * R 4.2.1
   * Racket 6.7
   * Ruby 2.3.3p222
@@ -55,13 +61,22 @@ contest.
   * Tcl 8.6
   * TeX (TeX Live 2016/Debian)
   * Z3 4.4.1
+  * Zsh 5.3.1
 
 
 ## Editors
 
   * emacs 24.5.1
+  * nano 2.7.4
   * vim 8.0.550
 
+
+## Libraries
+
+  * Boost
+  * libgmp
+  * Python3-{pip,virtualenv,umpu,scipy,pandas,sklearn}
+  * zlib
 
 ## VCS
 
@@ -75,9 +90,18 @@ contest.
 
   * automake 1.15
   * cabal 1.24.0.2
-  * cmake 3.7.2
+  * cargo 0.18.0
+  * cmake 3.9.0
+  * cmake-curses-gui 3.9.0-1
+  * gdb 7.12-6
+  * gnu parallel 20161222
+  * gradle 3.2.1
+  * lldb 3.8.1
+  * ivy 2.4.0-3
   * make 4.1
-  * npm 1.4.21
+  * maven 3.3.9
+  * npm 5.3.0
   * opam 1.2.2
   * sbt 0.13.15.3
   * stack 1.4.0
+  * valgrind 3.12.0

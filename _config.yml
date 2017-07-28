@@ -14,6 +14,8 @@ rss_path: /feed.xml
 navigation:
 - text: Problem Specification
   url: /problem/
+- text: Virtual Machine
+  url: /vm/
 - text: Archives
   url: /archives/
 - text: Tags
