@@ -27,15 +27,16 @@ contest.
   * COBOL (OpenCobol 1.1.0)
   * Common Lisp (sbcl 1.3.19)
   * C++ (g++ 7.1.0)
-  * D (gdc 6.3.0)
+  * D (gdc 6.4.0)
   * Dotnet 2.0.0-preview2-006497
-  * Erlang 8.2.1
+  * Elixir 1.5.0-1
+  * Erlang 9.0
   * F# 4.1
   * F* 0.9.3.0-beta1
   * Forth (gforth 0.7.3)
   * Fortran (gfortran 7.1.0)
   * Haskell (GHC 8.0.1)
-  * Go 1.7.4
+  * Go 1.7.6
   * Groovy 2.4.8
   * Idris 1.0
   * Java (JDK 1.8.0u141)
@@ -46,20 +47,21 @@ contest.
   * LLVM + Clang 4.0 (clang-4.0)
   * OCaml 4.04.1
   * Perl 5.24.1
-  * PHP 7.0.19-1
+  * PHP 7.0.20-2
+  * Picat 2.1#3
   * Prolog (SWI Prolog 7.2.3)
-  * Python (python: 2.7.13, python3: 3.5.3, python3.6: 3.6.2)
-  * PyPy 5.6.0
+  * Python (python: 2.7.13+, python3: 3.5.4rc1, python3.6: 3.6.2)
+  * PyPy 5.8.0
   * Pyret (compiled from git repository; located in $HOME/pyret-lang)
-  * R 4.2.1
-  * Racket 6.7
+  * R 3.4.1
+  * Racket 6.9
   * Ruby 2.3.3p222
   * Rust 1.17.0
   * Scala 2.12.2
   * Scheme (MIT Scheme 9.1.1)
   * Standard ML (MLton 20130715, SML of New Jersey 110.79)
   * Tcl 8.6
-  * TeX (TeX Live 2016/Debian)
+  * TeX (TeX Live 2017/Debian)
   * Z3 4.4.1
   * Zsh 5.3.1
 
@@ -67,7 +69,7 @@ contest.
 ## Editors
 
   * emacs 24.5.1
-  * nano 2.7.4
+  * nano 2.8.6
   * vim 8.0.550
 
 
@@ -80,15 +82,16 @@ contest.
 
 ## VCS
 
-  * darcs 2.12.4
-  * git 2.11.0
+  * darcs 2.12.5
+  * git 2.13.3
   * mercurial 4.0
-  * subversion 1.9.5
+  * subversion 1.9.6
 
 
 ## Tools
 
-  * automake 1.15
+  * automake 1.15.1
+  * bazel 0.5.3
   * cabal 1.24.0.2
   * cargo 0.18.0
   * cmake 3.9.0
@@ -104,4 +107,4 @@ contest.
   * opam 1.2.2
   * sbt 0.13.15.3
   * stack 1.4.0
-  * valgrind 3.12.0
+  * valgrind 3.13.0
