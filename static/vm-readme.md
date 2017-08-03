@@ -17,9 +17,10 @@ be a limit on memory usage during solution evaluation. Below is a list
 of software currently installed on the VM and available during the
 contest.
 
-The VM can be downnloaded from either of the following links:
+The VM can be downloaded from either of the following links:
  * https://drive.google.com/open?id=0B55cBtUdD6_uQklkTnRubFltQjQ
  * https://1drv.ms/u/s!AtBAU3fttpIOkPgkMGFFzTPxsUiYkg
+ * http://icfp.isefs.uni-due.de/icfp2017-contest-2017_08_03.ova (please use sparingly)
 
 
 ## Programming languages and compilers
