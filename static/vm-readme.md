@@ -4,7 +4,8 @@ ICFP 2017 Programming Contest VM
 Log into the virtual machine as user "punter" with password "icfp2017".
 The root password is also "icfp2017".  Note that during the contest your
 program will be evaluated on a standard user account and will not have
-root permissions.
+root permissions. In addition the VM can be accessed by using 
+'ssh punter@localhost -p 2222'.
 
 The VM comes in OVA format, which is supported by VirtualBox, VMWare
 and other virtualization software. The VM by default has 4GB of RAM
@@ -15,6 +16,10 @@ it then this is an indication that you are in trouble --- there will
 be a limit on memory usage during solution evaluation. Below is a list
 of software currently installed on the VM and available during the
 contest.
+
+The VM can be downnloaded from either of the following links:
+ * https://drive.google.com/open?id=0B55cBtUdD6_uQklkTnRubFltQjQ
+ * https://1drv.ms/u/s!AtBAU3fttpIOkPgkMGFFzTPxsUiYkg
 
 
 ## Programming languages and compilers
