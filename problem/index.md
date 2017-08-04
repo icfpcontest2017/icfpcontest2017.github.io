@@ -3,4 +3,6 @@ layout: default
 title: Contest Specification
 ---
 
-Coming 4th August 2017...
+The task description is now available
+[here](http://icfpcontest2017.github.io/static/task-v1.0.pdf). Good
+luck!
