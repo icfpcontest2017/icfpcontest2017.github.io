@@ -8,6 +8,7 @@ Technical Questions
  - Q: Is it a requirement to have the code runnable on the VM?
  - A: Yes, it should be able to run on the VM.
 
+
  - Q: Will there be any way to test our offline-mode code before end of contest?
  - A: We will release a program for bridging between offline and online mode some time on Friday.
 
