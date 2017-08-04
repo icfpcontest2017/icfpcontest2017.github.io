@@ -16,6 +16,8 @@ navigation:
   url: /problem/
 - text: Virtual Machine
   url: /vm/
+- text: FAQ
+  url: /faq/
 - text: Code of Conduct
   url: http://icfp17.sigplan.org/attending/code-of-conduct
 - text: Archives
