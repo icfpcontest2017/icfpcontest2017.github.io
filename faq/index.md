@@ -3,6 +3,8 @@ layout: default
 title: Frequently Asked Questions
 ---
 
+Please also see the questions answered on the [mailing list](http://lists.inf.ed.ac.uk/pipermail/icfp-contest2017/2017-August/thread.html) and [Twitter](https://twitter.com/ICFPContest2017/with_replies).
+
 Technical Questions
 ======
 
@@ -12,7 +14,7 @@ Technical Questions
  <br>
 
  - Q: Will there be any way to test our offline-mode code before end of contest?
- - A: We will release a program for bridging between offline and online mode some time on Friday.
+ - A: [Lambda Duct](https://github.com/icfpcontest2017/lambda-duct) is an offline mode simulator for Lambda Punter clients.~~We will release a program for bridging between offline and online mode some time on Friday.~~
 
 
 Scoring
