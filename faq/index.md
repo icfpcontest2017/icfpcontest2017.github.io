@@ -3,6 +3,8 @@ layout: default
 title: Frequently Asked Questions
 ---
 
+Please also see the questions answered on the [mailing list](http://lists.inf.ed.ac.uk/pipermail/icfp-contest2017/2017-August/thread.html) and [Twitter](https://twitter.com/ICFPContest2017/with_replies).
+
 Technical Questions
 ======
 
