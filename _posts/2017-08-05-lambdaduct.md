@@ -30,3 +30,5 @@ $ lamduct --game-port <port> ./<name of client program>
 ```
 
 Note the `./` in front of the client program name.
+
+Happy punting!
