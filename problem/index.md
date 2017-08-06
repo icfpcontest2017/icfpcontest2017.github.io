@@ -1,4 +1,4 @@
----
+1---
 layout: default
 title: Contest Specification
 ---
@@ -9,8 +9,12 @@ luck!
 
 Extensions
 ----
+
   - [Futures](https://icfpcontest2017.github.io/static/task-futures.pdf)
     - [Version 1.0](https://icfpcontest2017.github.io/static/task-futures-v1.0.pdf)
+
+  - [Splurges](https://icfpcontest2017.github.io/static/task-splurges.pdf)
+    - [Version 1.0](https://icfpcontest2017.github.io/static/task-splurges-v1.0.pdf)
 
 Version History
 ----
