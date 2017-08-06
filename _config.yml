@@ -3,11 +3,11 @@ title: ICFP Programming Contest 2017
 description: The website for the 2017 ICFP Programming Contest
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: ""
+url: "https://icfpcontest2017.github.io"
 highlighter: rouge
 markdown: kramdown
 permalink: /post/:title/
-paginate: 4
+paginate: 100
 plugins: [jekyll-paginate, jekyll-twitter-plugin]
 paginate_path: "/page:num"
 rss_path: /feed.xml
