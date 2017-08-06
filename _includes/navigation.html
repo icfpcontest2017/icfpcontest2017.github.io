@@ -11,7 +11,11 @@
       {% endif %}
 
       <li class="{{ current }}">
+        {% if link.text == "Code of Conduct" %}
+        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+        {% else %}
         <a class="{{ current }}" href="{{ site.url }}{{ link.url }}">{{ link.text }}</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
