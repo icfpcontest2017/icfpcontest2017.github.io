@@ -1,4 +1,4 @@
-1---
+---
 layout: default
 title: Contest Specification
 ---
