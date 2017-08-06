@@ -16,6 +16,9 @@ Extensions
   - [Splurges](https://icfpcontest2017.github.io/static/task-splurges.pdf)
     - [Version 1.0](https://icfpcontest2017.github.io/static/task-splurges-v1.0.pdf)
 
+  - [Options](https://icfpcontest2017.github.io/static/task-options.pdf)
+    - [Version 1.0](https://icfpcontest2017.github.io/static/task-options-v1.0.pdf)
+
 Version History
 ----
 
