@@ -1,4 +1,4 @@
-const summary_file = "summary.json"
+const summary_file = "/punttv/summary.json"
 
 function filteredSearch() {
     var i;
@@ -110,7 +110,7 @@ function displaySummaryTable(json) {
 
 
 function loadSummary() {
-  fetch(summary_file, { mode: 'no-Coors' })
+  fetch(summary_file, { mode: 'no-cors' })
     .then(res => res.json())
     .then(json => displaySummaryTable(json))
 }
