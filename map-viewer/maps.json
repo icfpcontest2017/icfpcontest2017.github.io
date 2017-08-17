@@ -1,0 +1,9 @@
+{
+  "maps": [
+   { "filename": "../maps/lambda.json", "name": "Lambda", "num_nodes": 37, "num_edges": 60},
+   { "filename": "../maps/triangle.json", "name": "Sierpinski triangle", "num_nodes": 42, "num_edges": 81},
+   { "filename": "../maps/circle.json", "name": "Circle", "num_nodes": 27, "num_edges": 65},
+   { "filename": "../maps/randomMedium.json", "name": "Random1", "num_nodes": 97, "num_edges": 187},
+   { "filename": "../maps/randomSparse.json", "name": "Random2", "num_nodes": 86, "num_edges": 123 },
+  ]
+}

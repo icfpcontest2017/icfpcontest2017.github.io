@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 3rem;
+  background-color: #0078D7;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+/** Search **/
+.content-wrapper {
+    margin: 2rem;
+    width: 90%;
+}
+
+#phrase {
+    background-image: url('/punttv/img/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    box-sizing: border-box;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    display: block;
+}
+
+#playerTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#playerTable th, #playerTable td {
+    text-align: left; /* Left-align text */
+    padding: 2px; /* Add padding */
+}
+
+#playerTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#playerTable tr.header, #playerTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+
+
+.categories {
+    background-color: none;
+}
+
+.teamName {
+    margin: 0;
+}
+
+.teamName:hover {
+    cursor:pointer;
+}
+
+.game-list a {
+    color:  #0078D7;
+    text-decoration: none;
+}
+
+.game-list a:hover {
+    color:  #0078D7;
+    text-decoration: underline;
+}
+
+.game-list {
+    /* border-collapse: collapse; /\* Collapse borders *\/ */
+    border: 10px solid #ddd; /* Add a grey border */
+    /* font-size: 14px; /\* Increase font-size *\/ */
+    /* display:table; */
+}

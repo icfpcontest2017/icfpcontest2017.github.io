@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Punt.TV - The #1 channel for great lambda-punter action!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js-core/jquery.min.js"></script>
+    <script src="../js-core/fastclick.min.js"></script>
+    <script src="../js-core/cytoscape.min.js"></script>
+    <script src="../js-core/bluebird.min.js"></script>
+    <script src="../js-core/js-core.js"></script>
+    <script src="js/punttv.js"></script>
+  </head>
+  <body onload="initialise()">
+    <header>
+      <h1>Punt.TV</h1>
+    </header>
+    <main class="unresolved">
+      <div>
+        <div class="canvas-wrapper">
+          <div id="loading" class="loader loaded">Loading</div>
+          <div class="canvas" id="cy"></div>
+          <nav class="control-panel" id="controls">
+            <div class="progress-bar">
+              <div id="progressBar"></div>
+            </div>
+            <div class="button-controls">
+              <button id="resetBtn"><i class="fa fa-fast-backward"></i></button>
+              <button id="stepBackBtn"><i class="fa fa-step-backward"></i></button>
+              <button id="playBtn"><i class="fa fa-play"></i></button>
+              <button id="stepFwdBtn"><i class="fa fa-step-forward"></i></button>
+              <button id="endBtn"><i class="fa fa-fast-forward"></i></button>
+              <input type="range" min="0" max="975" step="25" id="speed" value="750">
+              <label>
+                <input type="checkbox" id="labels">
+                Labels
+              </label>
+            </div>
+          </nav>
+        </div>
+        <div class="console" id="console"></div>
+      </div>
+      <aside id="legend" class="legend">
+        <!--
+        <div>
+          <input id="loadInput" type="text" value="/punttv/lambda-game.json">
+          <button id="loadBtn">Load</button>
+        </div>
+        -->
+      </aside>
+
+    </main>
+  </body>
+</html>

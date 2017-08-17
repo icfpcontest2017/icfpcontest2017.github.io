@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Punt.TV - The #1 channel for Lambda Punter action!</title>
+    <link rel="stylesheet" href="css/style-selector.css">
+    <script src="js/punttv-selector.js"></script>
+  </head>
+  <body onload="loadSummary()">
+    <header>
+      <h1>Punt.TV &mdash; Lightning contest (round 1)</h1>
+    </header>
+    <div class="content-wrapper">
+      <input type="text" id="phrase" onkeyup="filteredSearch()" placeholder="Search for team names...">
+      <table id="playerTable">
+        <thead>
+          <tr class="header">
+            <th>Team</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>
+</html>
