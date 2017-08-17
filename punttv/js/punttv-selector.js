@@ -1,4 +1,4 @@
-const summary_file = "summary.json"
+const summary_file = "/punttv/summary.json"
 
 function filteredSearch() {
     var i;
