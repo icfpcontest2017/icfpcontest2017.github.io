@@ -1,4 +1,4 @@
-/* @override 
+/* @override
 	http://localhost:4000/css/main.css */
 
 
@@ -326,4 +326,22 @@ code {
     pre {
 		font-size: 0.8em;
 	}
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+table td {
+  padding:7px; border:#7777cc 1px solid;
+}
+table th {
+  text-align: center;
+}
+/*  Define the background color for all the ODD background rows  */
+tbody:nth-child(2n) td {
+  background: #cccccc;
+}
+/*  Define the background color for all the EVEN background rows  */
+tbody:nth-child(2n+1) td  {
+  background: #ffffff;
 }
