@@ -1,0 +1,23 @@
+{
+  "rounds" : [
+    {
+      "name" : "Lightning round 1 (with move order bugs)",
+      "file" : "summary-lightning1-oops.json"
+    },
+
+    {
+      "name" : "Lightning round 1 (fixed)",
+      "file" : "summary-lightning1-fixed.json"
+    },
+
+    {
+      "name" : "Repechage",
+      "file" : "summary-lightning1-repechage.json"
+    },
+
+    {
+      "name" : "Lightning round 2",
+      "file" : "summary-lightning2.json"
+    }
+  ]
+}

@@ -575,15 +575,31 @@ function loadGame (url, successCallback, errorCallback) {
     const options = { };
     const zombies = { };
 
-    json = json.filter(l => {
-      //
-      if (l.hasOwnProperty('zombie')) {
-        zombies[l.zombie.punter] = true;
-        // turn zombie message into a pass
-        l.pass = {punter:l.zombie.punter};
-        return true;
+    // Linear scan to find gameplay start
+    let playing = false;
+
+    json.forEach((step) => {
+      if (step.hasOwnProperty('gameplay')) {
+        if (step.gameplay == "start") {
+          playing = true;
+        } else if (step.gameplay == 'end') {
+          playing = false;
+        }
+      } else if (step.hasOwnProperty('zombie')) {
+        zombies[step.zombie.punter] = true;
+        if (playing) {
+          step.pass = {punter:step.zombie.punter};
+        }
       }
-      if (l.hasOwnProperty('timeout')) {
+    });
+
+
+
+
+    json = json.filter(l => {
+      if (l.hasOwnProperty('zombie') && !l.hasOwnProperty('pass')) {
+        return false;
+      } if (l.hasOwnProperty('timeout')) {
         // ignore timeout messages for now
         return false;
       }
@@ -640,9 +656,10 @@ function loadGame (url, successCallback, errorCallback) {
       futuresList.forEach(f => {
         const punter = f.punter;
         f.scores.forEach(s => {
-          if (players[punter].futures[s.mine] === undefined) {
+          if (players[punter].futures === undefined)
+            players[punter].futures =  { };
+          if (players[punter].futures[s.mine] === undefined)
             players[punter].futures[s.mine] = { };
-          }
           players[punter].futures[s.mine].score = s.score;
         });
       });

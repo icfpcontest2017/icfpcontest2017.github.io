@@ -2,16 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Punt.TV - The #1 channel for Lambda Punter action!</title>
+    <title>PuntTV - The #1 channel for Lambda Punter action!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style-selector.css">
     <script src="js/punttv-selector.js"></script>
   </head>
-  <body onload="loadSummary()">
+  <body onload="main()">
     <header>
-      <h1>Punt.TV &mdash; Lightning contest (round 1)</h1>
+      <h1>PuntTV</h1>
     </header>
     <div class="content-wrapper">
+
       <input type="text" id="phrase" onkeyup="filteredSearch()" placeholder="Search for team names...">
+
+      <ul id="nav-ul" class="nav nav-tabs">
+        <!-- Tab names go here -->
+        <!--
       <table id="playerTable">
         <thead>
           <tr class="header">
@@ -19,6 +32,12 @@
           </tr>
         </thead>
       </table>
+        -->
+      </ul>
+
+      <div id="tab-content-container" class="tab-content">
+        <!-- tab contents go here -->
+      </div>
     </div>
   </body>
 </html>
