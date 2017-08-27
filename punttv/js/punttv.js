@@ -103,6 +103,8 @@ function Graph () {
   this.applyMove = (move) => {
     const cs = (move.hasOwnProperty('claim')) ?
        [ claim(move.claim.punter, move.claim.source, move.claim.target) ]
+    : (move.hasOwnProperty('option')) ?
+       [ claim(move.option.punter, move.option.source, move.option.target) ]
     : (move.hasOwnProperty('splurge')) ?
        splurge(move.splurge.punter, move.splurge.route)
     : [ ];
@@ -123,6 +125,8 @@ function Graph () {
   this.unapplyMove = (move) => {
     if (move.hasOwnProperty('claim')) {
       unclaim(move.claim.source, move.claim.target, move.options && move.options[0]);
+    } else if (move.hasOwnProperty('option')) {
+      unclaim(move.option.source, move.option.target, move.options && move.options[0]);
     } else if (move.hasOwnProperty('splurge')) {
       unsplurge(move.splurge.route, move.options);
     }
@@ -202,15 +206,29 @@ function GameConsole (consoleContainer, players) {
   this.logMove = (move, i) => {
     if (move.hasOwnProperty('claim')) {
       writeMove(`CLAIM ${move.claim.source}-${move.claim.target}`, move.claim.punter, i);
+    } else if (move.hasOwnProperty('option')) {
+      writeMove(`OPTION ${move.option.source}-${move.option.target}`, move.option.punter, i);
     } else if (move.hasOwnProperty('splurge')) {
       writeMove(`SPLURGE ${move.splurge.route.toString()}`, move.splurge.punter, i);
     } else if (move.hasOwnProperty('pass')) {
       writeMove('PASS', move.pass.punter, i);
     };
+    if (move.hasOwnProperty('pass') && move.hasOwnProperty('zombie')) {
+      this.logZombie(move.pass.punter);
+    }
     if (move.options) {
       move.options.forEach(this.logOption);
     }
   };
+
+  this.logZombie = (punter) => {
+    const name =  players[punter].name;
+    const colour = players[punter].colour;
+    const span = document.createElement('span');
+    span.innerHTML = name;
+    span.style.color = colour;
+    write([' ', span, " became a zombie"])
+  }
 
   this.logOption = (option) => {
     const oldName = players[option.option.from].name;
@@ -223,7 +241,7 @@ function GameConsole (consoleContainer, players) {
     const newSpan = document.createElement('span');
     newSpan.innerHTML = newName;
     newSpan.style.color = newColour;
-    write([ '  ', newSpan, `optioned for ${option.source}-${option.target} with `, oldSpan ]);
+    write([ '  ', newSpan, `bought option to use ${option.source}-${option.target} owned by `, oldSpan ]);
   }
 
   this.log = write;
@@ -493,6 +511,9 @@ function Replay (game, speed, progressBar, playBtnIcon, legendContainer, console
       if (move.options) {
         move.options.forEach(out.removeLine);
       }
+      if (move.zombie) {
+        out.removeLine();
+      }
       out.removeLine();
     } else {
       out.logMove(move, stepIndex);
@@ -578,11 +599,12 @@ function loadGame (url, successCallback, errorCallback) {
     // Linear scan to find gameplay start
     let playing = false;
 
+    // inside gameplay convert zombie messages into passes
     json.forEach((step) => {
       if (step.hasOwnProperty('gameplay')) {
-        if (step.gameplay == "start") {
+        if (step.gameplay == 'start') {
           playing = true;
-        } else if (step.gameplay == 'end') {
+        } else if (step.gameplay == 'stop') {
           playing = false;
         }
       } else if (step.hasOwnProperty('zombie')) {
@@ -590,12 +612,14 @@ function loadGame (url, successCallback, errorCallback) {
         if (playing) {
           step.pass = {punter:step.zombie.punter};
         }
+      } else if (!playing && step.hasOwnProperty('pass')) {
+        // HACK: remove bogus passes from older logs
+        step.zombie = {punter:step.pass.punter};
+        delete step.pass;
       }
     });
 
-
-
-
+    // filter out zombie, timeout, and gameplay messages
     json = json.filter(l => {
       if (l.hasOwnProperty('zombie') && !l.hasOwnProperty('pass')) {
         return false;

@@ -72,8 +72,8 @@ const graphStyle = [
       "min-zoomed-font-size": 1,
       "font-size": 64,
       "color": "#FFF",
-      "line-color": "#009",
-      "width": 35,
+      "line-color": "#00F",
+      "width": 10,
       "z-index" : 1,
       "curve-style": "haystack",
       "haystack-radius": 0
@@ -83,7 +83,7 @@ const graphStyle = [
   {
     selector: 'edge.highlighted',
     style: {
-      width: 70,
+      width: 30,
       'z-index': 4,
     }
   },
@@ -91,7 +91,7 @@ const graphStyle = [
   {
     selector: 'edge[option]',
     style: {
-      width: 70,
+      width: 30,
       'z-index': 0,
     }
   },
@@ -102,7 +102,7 @@ const graphStyle = [
       "font-size": 4,
       "color": "#fff",
       "line-color": "yellow",
-      "width": 35
+      "width": 10
       }
   },
 
@@ -117,7 +117,7 @@ const graphStyle = [
   {
     "selector": ".option",
     "style": {
-      "width": 70,
+      "width": 30,
     },
   }
 ];
