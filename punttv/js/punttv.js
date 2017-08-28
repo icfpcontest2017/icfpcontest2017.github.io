@@ -213,12 +213,9 @@ function GameConsole (consoleContainer, players) {
     } else if (move.hasOwnProperty('pass')) {
       writeMove('PASS', move.pass.punter, i);
     };
-    // SL: I'd like to do this but something goes slightly wrong with the
-    // move counter when we undo it...
-    //
-    // if (move.hasOwnProperty('pass') && move.hasOwnProperty('zombie')) {
-    //   this.logZombie(move.pass.punter);
-    // }
+    if (move.hasOwnProperty('pass') && move.hasOwnProperty('zombie')) {
+      this.logZombie(move.pass.punter);
+    }
     if (move.options) {
       move.options.forEach(this.logOption);
     }
@@ -514,6 +511,9 @@ function Replay (game, speed, progressBar, playBtnIcon, legendContainer, console
       if (move.options) {
         move.options.forEach(out.removeLine);
       }
+      if (move.zombie) {
+        out.removeLine();
+      }
       out.removeLine();
     } else {
       out.logMove(move, stepIndex);
@@ -602,9 +602,9 @@ function loadGame (url, successCallback, errorCallback) {
     // inside gameplay convert zombie messages into passes
     json.forEach((step) => {
       if (step.hasOwnProperty('gameplay')) {
-        if (step.gameplay == "start") {
+        if (step.gameplay == 'start') {
           playing = true;
-        } else if (step.gameplay == 'end') {
+        } else if (step.gameplay == 'stop') {
           playing = false;
         }
       } else if (step.hasOwnProperty('zombie')) {
@@ -612,6 +612,10 @@ function loadGame (url, successCallback, errorCallback) {
         if (playing) {
           step.pass = {punter:step.zombie.punter};
         }
+      } else if (!playing && step.hasOwnProperty('pass')) {
+        // HACK: remove bogus passes from older logs
+        step.zombie = {punter:step.pass.punter};
+        delete step.pass;
       }
     });
 
