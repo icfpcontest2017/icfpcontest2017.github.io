@@ -1,23 +1,28 @@
 {
   "rounds" : [
     {
-      "name" : "Lightning round 1 (with move order bugs)",
+      "name" : "Lightning contest round 1 (with move order bugs)",
       "file" : "summary-lightning1-oops.json"
     },
 
     {
-      "name" : "Lightning round 1 (fixed)",
+      "name" : "Lightning contest round 1 (fixed)",
       "file" : "summary-lightning1-fixed.json"
     },
 
     {
-      "name" : "Repechage",
+      "name" : "Lightning contest repechage",
       "file" : "summary-lightning1-repechage.json"
     },
 
     {
-      "name" : "Lightning round 2",
+      "name" : "Lightning contest round 2",
       "file" : "summary-lightning2.json"
+    },
+
+    {
+      "name" : "Full contest round 1",
+      "file" : "summary-full1.json"
     }
   ]
 }

@@ -227,10 +227,10 @@ For round 2, we used the same scheme as for round one, except the maps
 were a little larger (including one submitted by a participant), and
 we had 8 players per map. We used the following four maps.
 
- * [boston.json](/map-viewer/?map=/maps/boston.json)
- * [junction.json](/map-viewer/?map=/maps/junction.json)
- * [star.json](/map-viewer/?map=/maps/star.json)
- * [tube.json](/map-viewer/?map=/maps/tube.json)
+ * [boston](/map-viewer/?map=/maps/boston.json)
+ * [junction](/map-viewer/?map=/maps/junction.json)
+ * [star](/map-viewer/?map=/maps/star.json)
+ * [tube](/map-viewer/?map=/maps/tube.json)
 
 As each punter contested each map with and without futures, the
 minimum number of points is 8 and the maximum number of points is 64.
