@@ -213,6 +213,9 @@ function GameConsole (consoleContainer, players) {
     } else if (move.hasOwnProperty('pass')) {
       writeMove('PASS', move.pass.punter, i);
     };
+    if (move.hasOwnProperty('pass') && move.hasOwnProperty('timeout')) {
+      this.logTimeout(move.pass.punter);
+    }
     if (move.hasOwnProperty('pass') && move.hasOwnProperty('zombie')) {
       this.logZombie(move.pass.punter);
     }
@@ -220,6 +223,15 @@ function GameConsole (consoleContainer, players) {
       move.options.forEach(this.logOption);
     }
   };
+
+  this.logTimeout = (punter) => {
+    const name =  players[punter].name;
+    const colour = players[punter].colour;
+    const span = document.createElement('span');
+    span.innerHTML = name;
+    span.style.color = colour;
+    write([' ', span, " timed out"])
+  }
 
   this.logZombie = (punter) => {
     const name =  players[punter].name;
@@ -511,6 +523,9 @@ function Replay (game, speed, progressBar, playBtnIcon, legendContainer, console
       if (move.options) {
         move.options.forEach(out.removeLine);
       }
+      if (move.timeout) {
+        out.removeLine();
+      }
       if (move.zombie) {
         out.removeLine();
       }
@@ -596,10 +611,11 @@ function loadGame (url, successCallback, errorCallback) {
     const options = { };
     const zombies = { };
 
-    // Linear scan to find gameplay start
     let playing = false;
+    let timeout = false;
 
     // inside gameplay convert zombie messages into passes
+    // and annotate passes with timeout messages
     json.forEach((step) => {
       if (step.hasOwnProperty('gameplay')) {
         if (step.gameplay == 'start') {
@@ -612,10 +628,17 @@ function loadGame (url, successCallback, errorCallback) {
         if (playing) {
           step.pass = {punter:step.zombie.punter};
         }
-      } else if (!playing && step.hasOwnProperty('pass')) {
-        // HACK: remove bogus passes from older logs
-        step.zombie = {punter:step.pass.punter};
-        delete step.pass;
+      } else if (step.hasOwnProperty('pass')) {
+        if (playing && timeout) {
+          step.timeout = { };
+          timeout = false;
+        } else if (!playing) {
+          // HACK: remove bogus passes from older logs
+          step.zombie = {punter:step.pass.punter};
+          delete step.pass;
+        }
+      } else if (playing && step.hasOwnProperty('timeout')) {
+        timeout = true;
       }
     });
 
@@ -623,12 +646,11 @@ function loadGame (url, successCallback, errorCallback) {
     json = json.filter(l => {
       if (l.hasOwnProperty('zombie') && !l.hasOwnProperty('pass')) {
         return false;
-      } if (l.hasOwnProperty('timeout')) {
-        // ignore timeout messages for now
+      }
+      if (l.hasOwnProperty('timeout') && !l.hasOwnProperty('pass')) {
         return false;
       }
       if (l.hasOwnProperty('gameplay')) {
-        // ignore gameplay messages for now
         return false;
       }
       return true;
