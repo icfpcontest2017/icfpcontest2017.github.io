@@ -23,6 +23,11 @@
     {
       "name" : "Full contest round 1",
       "file" : "summary-full1.json"
+    },
+
+    {
+      "name" : "Full contest round 2",
+      "file" : "summary-full2.json"
     }
   ]
 }

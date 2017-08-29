@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"options":true,"futures":true}},
 {"map":"lambda.json"},
-{"punter":0,"team":"HHP_159"},
+{"punter":0,"team":"HHP"},
 {"punter":1,"team":"Enoch Root"},
 {"punter":2,"team":"Frictionless Bananas"},
 {"punter":3,"team":"Adlersprung"},
@@ -74,7 +74,7 @@
 {"claim":{"punter":0,"source":14,"target":11}},
 {"gameplay":"stop"},
 {"pass":{"punter":1}},
-{"scores":[{"punter":0,"score":1423,"team":"HHP_159"},{"punter":1,"score":300,"team":"Enoch Root"},{"punter":2,"score":931,"team":"Frictionless Bananas"},{"punter":3,"score":1238,"team":"Adlersprung"}]},
+{"scores":[{"punter":0,"score":1423,"team":"HHP"},{"punter":1,"score":300,"team":"Enoch Root"},{"punter":2,"score":931,"team":"Frictionless Bananas"},{"punter":3,"score":1238,"team":"Adlersprung"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"options":4},{"punter":1,"active":false},{"punter":2,"active":true,"options":2},{"punter":3,"active":true,"options":1}]},
  {"stop":{}}]}

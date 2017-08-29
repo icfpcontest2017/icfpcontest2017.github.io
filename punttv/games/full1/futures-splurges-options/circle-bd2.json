@@ -5,7 +5,7 @@
 {"punter":0,"team":"Begot"},
 {"punter":1,"team":"DrunkAlexSh"},
 {"punter":2,"team":"RagingMushrooms"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
 {"punter":2,"futures":[]},
@@ -77,7 +77,7 @@
 {"claim":{"punter":3,"source":9,"target":8}},
 {"claim":{"punter":0,"source":26,"target":8}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":86,"team":"Begot"},{"punter":1,"score":34,"team":"DrunkAlexSh"},{"punter":2,"score":52,"team":"RagingMushrooms"},{"punter":3,"score":255,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":86,"team":"Begot"},{"punter":1,"score":34,"team":"DrunkAlexSh"},{"punter":2,"score":52,"team":"RagingMushrooms"},{"punter":3,"score":255,"team":"HHP"}]},
 {"futures":[{"punter":0,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":1,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":2,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":3,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":4},{"punter":1,"active":true,"credit":0,"options":4},{"punter":2,"active":true,"credit":0,"options":4},{"punter":3,"active":true,"credit":0,"options":4}]},
  {"stop":{}}]}

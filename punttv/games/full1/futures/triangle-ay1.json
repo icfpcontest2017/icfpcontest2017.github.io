@@ -4,7 +4,7 @@
 {"map":"triangle.json"},
 {"punter":0,"team":"Russian Horse Cup"},
 {"punter":1,"team":"codingteam"},
-{"punter":2,"team":"FromRedmondWithLove_100"},
+{"punter":2,"team":"FromRedmondWithLove"},
 {"punter":3,"team":"Celestial Dire Badger"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -93,7 +93,7 @@
 {"claim":{"punter":3,"source":24,"target":26}},
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":366,"team":"Russian Horse Cup"},{"punter":1,"score":6,"team":"codingteam"},{"punter":2,"score":681,"team":"FromRedmondWithLove_100"},{"punter":3,"score":26,"team":"Celestial Dire Badger"}]},
+{"scores":[{"punter":0,"score":366,"team":"Russian Horse Cup"},{"punter":1,"score":6,"team":"codingteam"},{"punter":2,"score":681,"team":"FromRedmondWithLove"},{"punter":3,"score":26,"team":"Celestial Dire Badger"}]},
 {"futures":[{"punter":0,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":1,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":2,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":3,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

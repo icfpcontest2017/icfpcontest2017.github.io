@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"splurges":true,"options":true}},
 {"map":"triangle.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"MindSweeper"},
 {"punter":2,"team":"?!?"},
 {"punter":3,"team":"Sir Bedevere the Wise"},
@@ -90,6 +90,6 @@
 {"claim":{"punter":0,"source":18,"target":22}},
 {"gameplay":"stop"},
 {"pass":{"punter":1}},
-{"scores":[{"punter":0,"score":319,"team":"FromRedmondWithLove_100"},{"punter":1,"score":6,"team":"MindSweeper"},{"punter":2,"score":818,"team":"?!?"},{"punter":3,"score":261,"team":"Sir Bedevere the Wise"}]},
+{"scores":[{"punter":0,"score":319,"team":"FromRedmondWithLove"},{"punter":1,"score":6,"team":"MindSweeper"},{"punter":2,"score":818,"team":"?!?"},{"punter":3,"score":261,"team":"Sir Bedevere the Wise"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":3},{"punter":1,"active":false},{"punter":2,"active":true,"credit":0,"options":0},{"punter":3,"active":true,"credit":0,"options":3}]},
  {"stop":{}}]}

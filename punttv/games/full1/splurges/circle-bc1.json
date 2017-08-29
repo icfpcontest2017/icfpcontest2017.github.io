@@ -5,7 +5,7 @@
 {"punter":0,"team":"Sunspear"},
 {"punter":1,"team":"Celestial Dire Badger"},
 {"punter":2,"team":"blueiris"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":17,"target":18}},
 {"claim":{"punter":1,"source":16,"target":26}},
@@ -74,6 +74,6 @@
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
 {"pass":{"punter":2}},
-{"scores":[{"punter":0,"score":17,"team":"Sunspear"},{"punter":1,"score":266,"team":"Celestial Dire Badger"},{"punter":2,"score":1,"team":"blueiris"},{"punter":3,"score":350,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":17,"team":"Sunspear"},{"punter":1,"score":266,"team":"Celestial Dire Badger"},{"punter":2,"score":1,"team":"blueiris"},{"punter":3,"score":350,"team":"HHP"}]},
 {"statuses":[{"punter":0,"active":true,"credit":9},{"punter":1,"active":true,"credit":0},{"punter":2,"active":false},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

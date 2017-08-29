@@ -3,7 +3,7 @@
 {"settings":{"futures":true}},
 {"map":"triangle.json"},
 {"punter":0,"team":"master_thesis"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"Embedded Cloud Puntifictation"},
 {"punter":3,"team":"Piggybank Software"},
 {"punter":0,"futures":[]},
@@ -93,7 +93,7 @@
 {"claim":{"punter":3,"source":25,"target":19}},
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":80,"team":"master_thesis"},{"punter":1,"score":1009,"team":"HHP_159"},{"punter":2,"score":0,"team":"Embedded Cloud Puntifictation"},{"punter":3,"score":1196,"team":"Piggybank Software"}]},
+{"scores":[{"punter":0,"score":80,"team":"master_thesis"},{"punter":1,"score":1009,"team":"HHP"},{"punter":2,"score":0,"team":"Embedded Cloud Puntifictation"},{"punter":3,"score":1196,"team":"Piggybank Software"}]},
 {"futures":[{"punter":0,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":1,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":2,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":3,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

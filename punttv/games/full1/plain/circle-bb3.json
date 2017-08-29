@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{}},
 {"map":"circle.json"},
-{"punter":0,"team":"HHP_159"},
+{"punter":0,"team":"HHP"},
 {"punter":1,"team":"drop table teams;"},
 {"punter":2,"team":"DrunkAlexSh"},
 {"punter":3,"team":"code-o-matic"},
@@ -73,6 +73,6 @@
 {"claim":{"punter":3,"source":11,"target":13}},
 {"claim":{"punter":0,"source":20,"target":21}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":249,"team":"HHP_159"},{"punter":1,"score":2,"team":"drop table teams;"},{"punter":2,"score":309,"team":"DrunkAlexSh"},{"punter":3,"score":251,"team":"code-o-matic"}]},
+{"scores":[{"punter":0,"score":249,"team":"HHP"},{"punter":1,"score":2,"team":"drop table teams;"},{"punter":2,"score":309,"team":"DrunkAlexSh"},{"punter":3,"score":251,"team":"code-o-matic"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

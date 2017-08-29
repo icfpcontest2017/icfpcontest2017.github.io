@@ -4,7 +4,7 @@
 {"map":"randomMedium.json"},
 {"punter":0,"team":"Wile E."},
 {"punter":1,"team":"A Storm Of Minds"},
-{"punter":2,"team":"HHP_159"},
+{"punter":2,"team":"HHP"},
 {"punter":3,"team":"Enoch Root"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -199,7 +199,7 @@
 {"claim":{"punter":1,"source":83,"target":92}},
 {"claim":{"punter":2,"source":59,"target":90}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":5519,"team":"Wile E."},{"punter":1,"score":3003,"team":"A Storm Of Minds"},{"punter":2,"score":6045,"team":"HHP_159"},{"punter":3,"score":1659,"team":"Enoch Root"}]},
+{"scores":[{"punter":0,"score":5519,"team":"Wile E."},{"punter":1,"score":3003,"team":"A Storm Of Minds"},{"punter":2,"score":6045,"team":"HHP"},{"punter":3,"score":1659,"team":"Enoch Root"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

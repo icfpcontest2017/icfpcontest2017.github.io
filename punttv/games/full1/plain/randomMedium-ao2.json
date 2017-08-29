@@ -3,7 +3,7 @@
 {"settings":{}},
 {"map":"randomMedium.json"},
 {"punter":0,"team":"TeamDev"},
-{"punter":1,"team":"FromRedmondWithLove_100"},
+{"punter":1,"team":"FromRedmondWithLove"},
 {"punter":2,"team":"Wile E."},
 {"punter":3,"team":"301"},
 {"gameplay":"start"},
@@ -195,6 +195,6 @@
 {"claim":{"punter":1,"source":46,"target":91}},
 {"claim":{"punter":2,"source":63,"target":91}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":178,"team":"TeamDev"},{"punter":1,"score":1946,"team":"FromRedmondWithLove_100"},{"punter":2,"score":7013,"team":"Wile E."},{"punter":3,"score":2654,"team":"301"}]},
+{"scores":[{"punter":0,"score":178,"team":"TeamDev"},{"punter":1,"score":1946,"team":"FromRedmondWithLove"},{"punter":2,"score":7013,"team":"Wile E."},{"punter":3,"score":2654,"team":"301"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

@@ -5,7 +5,7 @@
 {"punter":0,"team":"blueiris"},
 {"punter":1,"team":"Sideways Spider"},
 {"punter":2,"team":"hayatox"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":26,"target":27}},
 {"claim":{"punter":1,"source":31,"target":32}},
@@ -70,6 +70,6 @@
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
 {"pass":{"punter":0}},
-{"scores":[{"punter":0,"score":9,"team":"blueiris"},{"punter":1,"score":52,"team":"Sideways Spider"},{"punter":2,"score":500,"team":"hayatox"},{"punter":3,"score":198,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":9,"team":"blueiris"},{"punter":1,"score":52,"team":"Sideways Spider"},{"punter":2,"score":500,"team":"hayatox"},{"punter":3,"score":198,"team":"HHP"}]},
 {"statuses":[{"punter":0,"active":false},{"punter":1,"active":true,"options":4},{"punter":2,"active":true,"options":4},{"punter":3,"active":true,"options":4}]},
  {"stop":{}}]}

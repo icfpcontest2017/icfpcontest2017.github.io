@@ -3,7 +3,7 @@
 {"settings":{"splurges":true,"futures":true}},
 {"map":"triangle.json"},
 {"punter":0,"team":"WinterMUTE"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"Sideways Spider"},
 {"punter":3,"team":"The Church of the Least Fixed Punt"},
 {"punter":0,"futures":[]},
@@ -95,7 +95,7 @@
 {"claim":{"punter":0,"source":30,"target":33}},
 {"gameplay":"stop"},
 {"pass":{"punter":2}},
-{"scores":[{"punter":0,"score":214,"team":"WinterMUTE"},{"punter":1,"score":872,"team":"HHP_159"},{"punter":2,"score":0,"team":"Sideways Spider"},{"punter":3,"score":0,"team":"The Church of the Least Fixed Punt"}]},
+{"scores":[{"punter":0,"score":214,"team":"WinterMUTE"},{"punter":1,"score":872,"team":"HHP"},{"punter":2,"score":0,"team":"Sideways Spider"},{"punter":3,"score":0,"team":"The Church of the Least Fixed Punt"}]},
 {"futures":[{"punter":0,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":1,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":2,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":3,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":false},{"punter":3,"active":true,"credit":20}]},
  {"stop":{}}]}

@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{}},
 {"map":"triangle.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"GennAI"},
 {"punter":2,"team":"Lambada Calculus"},
 {"punter":3,"team":"Sideways Spider"},
@@ -91,6 +91,6 @@
 {"claim":{"punter":0,"source":18,"target":21}},
 {"gameplay":"stop"},
 {"pass":{"punter":3}},
-{"scores":[{"punter":0,"score":800,"team":"FromRedmondWithLove_100"},{"punter":1,"score":1042,"team":"GennAI"},{"punter":2,"score":229,"team":"Lambada Calculus"},{"punter":3,"score":27,"team":"Sideways Spider"}]},
+{"scores":[{"punter":0,"score":800,"team":"FromRedmondWithLove"},{"punter":1,"score":1042,"team":"GennAI"},{"punter":2,"score":229,"team":"Lambada Calculus"},{"punter":3,"score":27,"team":"Sideways Spider"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":false}]},
  {"stop":{}}]}

@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"splurges":true}},
 {"map":"randomMedium.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"The Flux Ambassadors"},
 {"punter":2,"team":"Frictionless Bananas"},
 {"punter":3,"team":"TFS_is_shit"},
@@ -195,6 +195,6 @@
 {"claim":{"punter":1,"source":24,"target":55}},
 {"claim":{"punter":2,"source":53,"target":72}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":2591,"team":"FromRedmondWithLove_100"},{"punter":1,"score":572,"team":"The Flux Ambassadors"},{"punter":2,"score":6760,"team":"Frictionless Bananas"},{"punter":3,"score":86,"team":"TFS_is_shit"}]},
+{"scores":[{"punter":0,"score":2591,"team":"FromRedmondWithLove"},{"punter":1,"score":572,"team":"The Flux Ambassadors"},{"punter":2,"score":6760,"team":"Frictionless Bananas"},{"punter":3,"score":86,"team":"TFS_is_shit"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":2}]},
  {"stop":{}}]}

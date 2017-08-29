@@ -4,7 +4,7 @@
 {"map":"triangle.json"},
 {"punter":0,"team":"Lambding Snakes vs Coding Monkeys"},
 {"punter":1,"team":"drop table teams;"},
-{"punter":2,"team":"FromRedmondWithLove_100"},
+{"punter":2,"team":"FromRedmondWithLove"},
 {"punter":3,"team":"d4o"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -94,7 +94,7 @@
 {"splurge":{"punter":0,"route":[30,34]}},
 {"gameplay":"stop"},
 {"pass":{"punter":3}},
-{"scores":[{"punter":0,"score":745,"team":"Lambding Snakes vs Coding Monkeys"},{"punter":1,"score":2,"team":"drop table teams;"},{"punter":2,"score":14,"team":"FromRedmondWithLove_100"},{"punter":3,"score":0,"team":"d4o"}]},
+{"scores":[{"punter":0,"score":745,"team":"Lambding Snakes vs Coding Monkeys"},{"punter":1,"score":2,"team":"drop table teams;"},{"punter":2,"score":14,"team":"FromRedmondWithLove"},{"punter":3,"score":0,"team":"d4o"}]},
 {"futures":[{"punter":0,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":1,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":2,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":3,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":18},{"punter":2,"active":true,"credit":17},{"punter":3,"active":false}]},
  {"stop":{}}]}

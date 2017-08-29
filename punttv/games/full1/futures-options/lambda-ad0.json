@@ -4,7 +4,7 @@
 {"map":"lambda.json"},
 {"punter":0,"team":"shinh11"},
 {"punter":1,"team":"The Higher Order of Zeuxis"},
-{"punter":2,"team":"FromRedmondWithLove_100"},
+{"punter":2,"team":"FromRedmondWithLove"},
 {"punter":3,"team":"trup16"},
 {"punter":0,"futures":[{"source":27,"target":31},{"source":32,"target":25}]},
 {"punter":1,"futures":[]},
@@ -75,7 +75,7 @@
 {"gameplay":"stop"},
 {"pass":{"punter":1}},
 {"pass":{"punter":0}},
-{"scores":[{"punter":0,"score":282,"team":"shinh11"},{"punter":1,"score":26,"team":"The Higher Order of Zeuxis"},{"punter":2,"score":167,"team":"FromRedmondWithLove_100"},{"punter":3,"score":1376,"team":"trup16"}]},
+{"scores":[{"punter":0,"score":282,"team":"shinh11"},{"punter":1,"score":26,"team":"The Higher Order of Zeuxis"},{"punter":2,"score":167,"team":"FromRedmondWithLove"},{"punter":3,"score":1376,"team":"trup16"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":64},{"mine":32,"score":64},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":false},{"punter":1,"active":false},{"punter":2,"active":true,"options":4},{"punter":3,"active":true,"options":1}]},
  {"stop":{}}]}

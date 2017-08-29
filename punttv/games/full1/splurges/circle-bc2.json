@@ -3,7 +3,7 @@
 {"settings":{"splurges":true}},
 {"map":"circle.json"},
 {"punter":0,"team":"blueiris"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"Sunspear"},
 {"punter":3,"team":"Celestial Dire Badger"},
 {"gameplay":"start"},
@@ -74,6 +74,6 @@
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
 {"pass":{"punter":0}},
-{"scores":[{"punter":0,"score":1,"team":"blueiris"},{"punter":1,"score":350,"team":"HHP_159"},{"punter":2,"score":63,"team":"Sunspear"},{"punter":3,"score":194,"team":"Celestial Dire Badger"}]},
+{"scores":[{"punter":0,"score":1,"team":"blueiris"},{"punter":1,"score":350,"team":"HHP"},{"punter":2,"score":63,"team":"Sunspear"},{"punter":3,"score":194,"team":"Celestial Dire Badger"}]},
 {"statuses":[{"punter":0,"active":false},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":6},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

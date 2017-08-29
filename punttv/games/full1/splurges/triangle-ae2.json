@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"splurges":true}},
 {"map":"triangle.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"AK"},
 {"punter":2,"team":"O Caml, My Caml"},
 {"punter":3,"team":"okeydaj"},
@@ -89,6 +89,6 @@
 {"claim":{"punter":3,"source":40,"target":41}},
 {"claim":{"punter":0,"source":39,"target":40}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":686,"team":"FromRedmondWithLove_100"},{"punter":1,"score":676,"team":"AK"},{"punter":2,"score":612,"team":"O Caml, My Caml"},{"punter":3,"score":126,"team":"okeydaj"}]},
+{"scores":[{"punter":0,"score":686,"team":"FromRedmondWithLove"},{"punter":1,"score":676,"team":"AK"},{"punter":2,"score":612,"team":"O Caml, My Caml"},{"punter":3,"score":126,"team":"okeydaj"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

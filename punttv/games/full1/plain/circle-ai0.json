@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{}},
 {"map":"circle.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"Wile E."},
 {"punter":2,"team":"udfew"},
 {"punter":3,"team":"zeta"},
@@ -73,6 +73,6 @@
 {"claim":{"punter":3,"source":4,"target":5}},
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":241,"team":"FromRedmondWithLove_100"},{"punter":1,"score":329,"team":"Wile E."},{"punter":2,"score":299,"team":"udfew"},{"punter":3,"score":302,"team":"zeta"}]},
+{"scores":[{"punter":0,"score":241,"team":"FromRedmondWithLove"},{"punter":1,"score":329,"team":"Wile E."},{"punter":2,"score":299,"team":"udfew"},{"punter":3,"score":302,"team":"zeta"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

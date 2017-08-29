@@ -4,7 +4,7 @@
 {"map":"lambda.json"},
 {"punter":0,"team":"Lambda In Closure Act"},
 {"punter":1,"team":"Russian Horse Cup"},
-{"punter":2,"team":"HHP_159"},
+{"punter":2,"team":"HHP"},
 {"punter":3,"team":"TeamDev"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -73,7 +73,7 @@
 {"claim":{"punter":3,"source":13,"target":33}},
 {"claim":{"punter":0,"source":1,"target":25}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":76,"team":"Lambda In Closure Act"},{"punter":1,"score":241,"team":"Russian Horse Cup"},{"punter":2,"score":678,"team":"HHP_159"},{"punter":3,"score":44,"team":"TeamDev"}]},
+{"scores":[{"punter":0,"score":76,"team":"Lambda In Closure Act"},{"punter":1,"score":241,"team":"Russian Horse Cup"},{"punter":2,"score":678,"team":"HHP"},{"punter":3,"score":44,"team":"TeamDev"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

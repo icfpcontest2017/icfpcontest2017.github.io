@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"splurges":true,"options":true}},
 {"map":"circle.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"The Flux Ambassadors"},
 {"punter":2,"team":"Stifinderne"},
 {"punter":3,"team":"drop table teams;"},
@@ -75,6 +75,6 @@
 {"claim":{"punter":0,"source":2,"target":26}},
 {"gameplay":"stop"},
 {"pass":{"punter":2}},
-{"scores":[{"punter":0,"score":406,"team":"FromRedmondWithLove_100"},{"punter":1,"score":239,"team":"The Flux Ambassadors"},{"punter":2,"score":0,"team":"Stifinderne"},{"punter":3,"score":2,"team":"drop table teams;"}]},
+{"scores":[{"punter":0,"score":406,"team":"FromRedmondWithLove"},{"punter":1,"score":239,"team":"The Flux Ambassadors"},{"punter":2,"score":0,"team":"Stifinderne"},{"punter":3,"score":2,"team":"drop table teams;"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":4},{"punter":1,"active":true,"credit":0,"options":4},{"punter":2,"active":false},{"punter":3,"active":true,"credit":14,"options":4}]},
  {"stop":{}}]}

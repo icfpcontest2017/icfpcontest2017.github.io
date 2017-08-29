@@ -5,7 +5,7 @@
 {"punter":0,"team":"code-o-matic"},
 {"punter":1,"team":"flash"},
 {"punter":2,"team":"Embedded Cloud Puntifictation"},
-{"punter":3,"team":"FromRedmondWithLove_100"},
+{"punter":3,"team":"FromRedmondWithLove"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":23,"target":35}},
 {"claim":{"punter":1,"source":27,"target":26}},
@@ -69,6 +69,6 @@
 {"pass":{"punter":3}},
 {"claim":{"punter":0,"source":0,"target":23}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":179,"team":"code-o-matic"},{"punter":1,"score":668,"team":"flash"},{"punter":2,"score":29,"team":"Embedded Cloud Puntifictation"},{"punter":3,"score":671,"team":"FromRedmondWithLove_100"}]},
+{"scores":[{"punter":0,"score":179,"team":"code-o-matic"},{"punter":1,"score":668,"team":"flash"},{"punter":2,"score":29,"team":"Embedded Cloud Puntifictation"},{"punter":3,"score":671,"team":"FromRedmondWithLove"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":1}]},
  {"stop":{}}]}

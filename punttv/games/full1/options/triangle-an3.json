@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"options":true}},
 {"map":"triangle.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"Oak"},
 {"punter":2,"team":"&#955; trac&#233;urs"},
 {"punter":3,"team":"TeamDev"},
@@ -89,6 +89,6 @@
 {"claim":{"punter":3,"source":32,"target":41}},
 {"claim":{"punter":0,"source":34,"target":35}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":674,"team":"FromRedmondWithLove_100"},{"punter":1,"score":310,"team":"Oak"},{"punter":2,"score":14,"team":"&#955; trac&#233;urs"},{"punter":3,"score":78,"team":"TeamDev"}]},
+{"scores":[{"punter":0,"score":674,"team":"FromRedmondWithLove"},{"punter":1,"score":310,"team":"Oak"},{"punter":2,"score":14,"team":"&#955; trac&#233;urs"},{"punter":3,"score":78,"team":"TeamDev"}]},
 {"statuses":[{"punter":0,"active":true,"options":3},{"punter":1,"active":true,"options":3},{"punter":2,"active":true,"options":3},{"punter":3,"active":true,"options":3}]},
  {"stop":{}}]}

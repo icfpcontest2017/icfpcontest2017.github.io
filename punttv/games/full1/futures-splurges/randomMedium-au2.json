@@ -3,7 +3,7 @@
 {"settings":{"splurges":true,"futures":true}},
 {"map":"randomMedium.json"},
 {"punter":0,"team":"GennAI"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"Random Hackers"},
 {"punter":3,"team":"Frictionless Bananas"},
 {"punter":0,"futures":[]},
@@ -199,7 +199,7 @@
 {"claim":{"punter":1,"source":24,"target":87}},
 {"claim":{"punter":2,"source":42,"target":72}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":2841,"team":"GennAI"},{"punter":1,"score":2379,"team":"HHP_159"},{"punter":2,"score":3036,"team":"Random Hackers"},{"punter":3,"score":5245,"team":"Frictionless Bananas"}]},
+{"scores":[{"punter":0,"score":2841,"team":"GennAI"},{"punter":1,"score":2379,"team":"HHP"},{"punter":2,"score":3036,"team":"Random Hackers"},{"punter":3,"score":5245,"team":"Frictionless Bananas"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

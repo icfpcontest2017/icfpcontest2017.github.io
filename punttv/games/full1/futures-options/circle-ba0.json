@@ -3,7 +3,7 @@
 {"settings":{"options":true,"futures":true}},
 {"map":"circle.json"},
 {"punter":0,"team":"&#36229;&#20982;&#21941;"},
-{"punter":1,"team":"FromRedmondWithLove_100"},
+{"punter":1,"team":"FromRedmondWithLove"},
 {"punter":2,"team":"cvnm"},
 {"punter":3,"team":"The Church of the Least Fixed Punt"},
 {"punter":0,"futures":[]},
@@ -77,7 +77,7 @@
 {"pass":{"punter":3}},
 {"claim":{"punter":0,"source":7,"target":8}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":363,"team":"&#36229;&#20982;&#21941;"},{"punter":1,"score":363,"team":"FromRedmondWithLove_100"},{"punter":2,"score":230,"team":"cvnm"},{"punter":3,"score":18,"team":"The Church of the Least Fixed Punt"}]},
+{"scores":[{"punter":0,"score":363,"team":"&#36229;&#20982;&#21941;"},{"punter":1,"score":363,"team":"FromRedmondWithLove"},{"punter":2,"score":230,"team":"cvnm"},{"punter":3,"score":18,"team":"The Church of the Least Fixed Punt"}]},
 {"futures":[{"punter":0,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":1,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":2,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":3,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"options":4},{"punter":1,"active":true,"options":4},{"punter":2,"active":true,"options":4},{"punter":3,"active":true,"options":4}]},
  {"stop":{}}]}

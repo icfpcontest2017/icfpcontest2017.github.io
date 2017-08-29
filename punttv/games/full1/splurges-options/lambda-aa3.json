@@ -3,7 +3,7 @@
 {"settings":{"splurges":true,"options":true}},
 {"map":"lambda.json"},
 {"punter":0,"team":"Udon"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"Stifinderne"},
 {"punter":3,"team":"cvnm"},
 {"zombie":{"punter":2}},
@@ -72,6 +72,6 @@
 {"gameplay":"stop"},
 {"pass":{"punter":2}},
 {"pass":{"punter":3}},
-{"scores":[{"punter":0,"score":921,"team":"Udon"},{"punter":1,"score":809,"team":"HHP_159"},{"punter":2,"score":0,"team":"Stifinderne"},{"punter":3,"score":443,"team":"cvnm"}]},
+{"scores":[{"punter":0,"score":921,"team":"Udon"},{"punter":1,"score":809,"team":"HHP"},{"punter":2,"score":0,"team":"Stifinderne"},{"punter":3,"score":443,"team":"cvnm"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":3},{"punter":1,"active":true,"credit":0,"options":4},{"punter":2,"active":false},{"punter":3,"active":false}]},
  {"stop":{}}]}

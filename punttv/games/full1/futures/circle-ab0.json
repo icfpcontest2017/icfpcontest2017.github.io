@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"futures":true}},
 {"map":"circle.json"},
-{"punter":0,"team":"HHP_159"},
+{"punter":0,"team":"HHP"},
 {"punter":1,"team":"O Caml, My Caml"},
 {"punter":2,"team":"DiamondPrincess"},
 {"punter":3,"team":"The Mikinators"},
@@ -78,7 +78,7 @@
 {"claim":{"punter":0,"source":19,"target":20}},
 {"gameplay":"stop"},
 {"pass":{"punter":3}},
-{"scores":[{"punter":0,"score":353,"team":"HHP_159"},{"punter":1,"score":333,"team":"O Caml, My Caml"},{"punter":2,"score":329,"team":"DiamondPrincess"},{"punter":3,"score":0,"team":"The Mikinators"}]},
+{"scores":[{"punter":0,"score":353,"team":"HHP"},{"punter":1,"score":333,"team":"O Caml, My Caml"},{"punter":2,"score":329,"team":"DiamondPrincess"},{"punter":3,"score":0,"team":"The Mikinators"}]},
 {"futures":[{"punter":0,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":1,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":2,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":3,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":false}]},
  {"stop":{}}]}

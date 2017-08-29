@@ -4,7 +4,7 @@
 {"map":"circle.json"},
 {"punter":0,"team":"called haddock's eyes"},
 {"punter":1,"team":"Frog"},
-{"punter":2,"team":"HHP_159"},
+{"punter":2,"team":"HHP"},
 {"punter":3,"team":"lambda-daddy"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":26,"target":6}},
@@ -73,6 +73,6 @@
 {"claim":{"punter":3,"source":9,"target":11}},
 {"claim":{"punter":0,"source":13,"target":14}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":160,"team":"called haddock's eyes"},{"punter":1,"score":90,"team":"Frog"},{"punter":2,"score":330,"team":"HHP_159"},{"punter":3,"score":65,"team":"lambda-daddy"}]},
+{"scores":[{"punter":0,"score":160,"team":"called haddock's eyes"},{"punter":1,"score":90,"team":"Frog"},{"punter":2,"score":330,"team":"HHP"},{"punter":3,"score":65,"team":"lambda-daddy"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":4},{"punter":1,"active":true,"credit":0,"options":4},{"punter":2,"active":true,"credit":0,"options":4},{"punter":3,"active":true,"credit":0,"options":4}]},
  {"stop":{}}]}

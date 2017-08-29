@@ -3,7 +3,7 @@
 {"settings":{"options":true,"futures":true}},
 {"map":"circle.json"},
 {"punter":0,"team":"Mind over Matter"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"Invisible Imp"},
 {"punter":3,"team":"kstm.org"},
 {"punter":0,"futures":[{"source":6,"target":26},{"source":12,"target":26}]},
@@ -78,7 +78,7 @@
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
 {"pass":{"punter":0}},
-{"scores":[{"punter":0,"score":51,"team":"Mind over Matter"},{"punter":1,"score":347,"team":"HHP_159"},{"punter":2,"score":102,"team":"Invisible Imp"},{"punter":3,"score":331,"team":"kstm.org"}]},
+{"scores":[{"punter":0,"score":51,"team":"Mind over Matter"},{"punter":1,"score":347,"team":"HHP"},{"punter":2,"score":102,"team":"Invisible Imp"},{"punter":3,"score":331,"team":"kstm.org"}]},
 {"futures":[{"punter":0,"scores":[{"mine":6,"score":1},{"mine":12,"score":1},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":1,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":2,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]},{"punter":3,"scores":[{"mine":6,"score":0},{"mine":12,"score":0},{"mine":18,"score":0},{"mine":24,"score":0}]}]},
 {"statuses":[{"punter":0,"active":false},{"punter":1,"active":true,"options":4},{"punter":2,"active":true,"options":4},{"punter":3,"active":true,"options":2}]},
  {"stop":{}}]}

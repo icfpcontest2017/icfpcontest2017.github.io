@@ -5,7 +5,7 @@
 {"punter":0,"team":"The Mikinators"},
 {"punter":1,"team":"DONT TOUCH MY LAMBDAS"},
 {"punter":2,"team":"This is an albatrocity!"},
-{"punter":3,"team":"FromRedmondWithLove_100"},
+{"punter":3,"team":"FromRedmondWithLove"},
 {"punter":0,"futures":[{"source":31,"target":38}]},
 {"punter":1,"futures":[]},
 {"punter":2,"futures":[]},
@@ -199,7 +199,7 @@
 {"claim":{"punter":1,"source":36,"target":66}},
 {"claim":{"punter":2,"source":17,"target":82}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":-2473,"team":"The Mikinators"},{"punter":1,"score":5967,"team":"DONT TOUCH MY LAMBDAS"},{"punter":2,"score":3709,"team":"This is an albatrocity!"},{"punter":3,"score":1424,"team":"FromRedmondWithLove_100"}]},
+{"scores":[{"punter":0,"score":-2473,"team":"The Mikinators"},{"punter":1,"score":5967,"team":"DONT TOUCH MY LAMBDAS"},{"punter":2,"score":3709,"team":"This is an albatrocity!"},{"punter":3,"score":1424,"team":"FromRedmondWithLove"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":-2744},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"futures":true}},
 {"map":"randomMedium.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"The Mikinators"},
 {"punter":2,"team":"DONT TOUCH MY LAMBDAS"},
 {"punter":3,"team":"This is an albatrocity!"},
@@ -199,7 +199,7 @@
 {"claim":{"punter":1,"source":59,"target":91}},
 {"claim":{"punter":2,"source":48,"target":83}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":1236,"team":"FromRedmondWithLove_100"},{"punter":1,"score":-2744,"team":"The Mikinators"},{"punter":2,"score":2875,"team":"DONT TOUCH MY LAMBDAS"},{"punter":3,"score":4614,"team":"This is an albatrocity!"}]},
+{"scores":[{"punter":0,"score":1236,"team":"FromRedmondWithLove"},{"punter":1,"score":-2744,"team":"The Mikinators"},{"punter":2,"score":2875,"team":"DONT TOUCH MY LAMBDAS"},{"punter":3,"score":4614,"team":"This is an albatrocity!"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":-2744},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

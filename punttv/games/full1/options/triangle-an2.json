@@ -5,7 +5,7 @@
 {"punter":0,"team":"Oak"},
 {"punter":1,"team":"&#955; trac&#233;urs"},
 {"punter":2,"team":"TeamDev"},
-{"punter":3,"team":"FromRedmondWithLove_100"},
+{"punter":3,"team":"FromRedmondWithLove"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":3,"target":23}},
 {"pass":{"punter":1}},
@@ -89,6 +89,6 @@
 {"claim":{"punter":3,"source":6,"target":10}},
 {"claim":{"punter":0,"source":24,"target":26}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":738,"team":"Oak"},{"punter":1,"score":0,"team":"&#955; trac&#233;urs"},{"punter":2,"score":55,"team":"TeamDev"},{"punter":3,"score":720,"team":"FromRedmondWithLove_100"}]},
+{"scores":[{"punter":0,"score":738,"team":"Oak"},{"punter":1,"score":0,"team":"&#955; trac&#233;urs"},{"punter":2,"score":55,"team":"TeamDev"},{"punter":3,"score":720,"team":"FromRedmondWithLove"}]},
 {"statuses":[{"punter":0,"active":true,"options":3},{"punter":1,"active":true,"options":3},{"punter":2,"active":true,"options":3},{"punter":3,"active":true,"options":3}]},
  {"stop":{}}]}

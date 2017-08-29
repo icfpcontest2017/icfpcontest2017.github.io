@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{}},
 {"map":"lambda.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"RagingMushrooms"},
 {"punter":2,"team":"Sirius Cybernetics Corporation"},
 {"punter":3,"team":"peeingbananas"},
@@ -69,6 +69,6 @@
 {"claim":{"punter":3,"source":1,"target":26}},
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":236,"team":"FromRedmondWithLove_100"},{"punter":1,"score":114,"team":"RagingMushrooms"},{"punter":2,"score":181,"team":"Sirius Cybernetics Corporation"},{"punter":3,"score":333,"team":"peeingbananas"}]},
+{"scores":[{"punter":0,"score":236,"team":"FromRedmondWithLove"},{"punter":1,"score":114,"team":"RagingMushrooms"},{"punter":2,"score":181,"team":"Sirius Cybernetics Corporation"},{"punter":3,"score":333,"team":"peeingbananas"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

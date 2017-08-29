@@ -5,7 +5,7 @@
 {"punter":0,"team":"punteros"},
 {"punter":1,"team":"MindSweeper"},
 {"punter":2,"team":"Turing Machinists"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":22,"target":18}},
 {"claim":{"punter":1,"source":32,"target":29}},
@@ -69,6 +69,6 @@
 {"claim":{"punter":3,"source":16,"target":20}},
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":641,"team":"punteros"},{"punter":1,"score":732,"team":"MindSweeper"},{"punter":2,"score":214,"team":"Turing Machinists"},{"punter":3,"score":751,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":641,"team":"punteros"},{"punter":1,"score":732,"team":"MindSweeper"},{"punter":2,"score":214,"team":"Turing Machinists"},{"punter":3,"score":751,"team":"HHP"}]},
 {"statuses":[{"punter":0,"active":true,"credit":1},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

@@ -5,7 +5,7 @@
 {"punter":0,"team":"alexf"},
 {"punter":1,"team":"yarunee"},
 {"punter":2,"team":"AIM Tech"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
 {"punter":2,"futures":[]},
@@ -73,7 +73,7 @@
 {"claim":{"punter":3,"source":0,"target":23}},
 {"claim":{"punter":0,"source":28,"target":12}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":656,"team":"alexf"},{"punter":1,"score":189,"team":"yarunee"},{"punter":2,"score":809,"team":"AIM Tech"},{"punter":3,"score":202,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":656,"team":"alexf"},{"punter":1,"score":189,"team":"yarunee"},{"punter":2,"score":809,"team":"AIM Tech"},{"punter":3,"score":202,"team":"HHP"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":4},{"punter":1,"active":true,"credit":2,"options":4},{"punter":2,"active":true,"credit":0,"options":4},{"punter":3,"active":true,"credit":0,"options":4}]},
  {"stop":{}}]}

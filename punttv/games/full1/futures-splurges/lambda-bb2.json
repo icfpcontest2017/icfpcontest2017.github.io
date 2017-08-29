@@ -4,7 +4,7 @@
 {"map":"lambda.json"},
 {"punter":0,"team":"&#955; trac&#233;urs"},
 {"punter":1,"team":"Sir Bedevere the Wise"},
-{"punter":2,"team":"FromRedmondWithLove_100"},
+{"punter":2,"team":"FromRedmondWithLove"},
 {"punter":3,"team":"DONT TOUCH MY LAMBDAS"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -73,7 +73,7 @@
 {"claim":{"punter":3,"source":5,"target":18}},
 {"claim":{"punter":0,"source":9,"target":29}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":616,"team":"&#955; trac&#233;urs"},{"punter":1,"score":40,"team":"Sir Bedevere the Wise"},{"punter":2,"score":143,"team":"FromRedmondWithLove_100"},{"punter":3,"score":127,"team":"DONT TOUCH MY LAMBDAS"}]},
+{"scores":[{"punter":0,"score":616,"team":"&#955; trac&#233;urs"},{"punter":1,"score":40,"team":"Sir Bedevere the Wise"},{"punter":2,"score":143,"team":"FromRedmondWithLove"},{"punter":3,"score":127,"team":"DONT TOUCH MY LAMBDAS"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

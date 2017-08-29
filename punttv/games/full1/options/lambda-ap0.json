@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"options":true}},
 {"map":"lambda.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"Go-TEAMPLOWULTRAFORCE5Fox1"},
 {"punter":2,"team":"uguu.org"},
 {"punter":3,"team":"Enoch Root"},
@@ -71,6 +71,6 @@
 {"claim":{"punter":0,"source":4,"target":21}},
 {"gameplay":"stop"},
 {"pass":{"punter":3}},
-{"scores":[{"punter":0,"score":766,"team":"FromRedmondWithLove_100"},{"punter":1,"score":11,"team":"Go-TEAMPLOWULTRAFORCE5Fox1"},{"punter":2,"score":242,"team":"uguu.org"},{"punter":3,"score":104,"team":"Enoch Root"}]},
+{"scores":[{"punter":0,"score":766,"team":"FromRedmondWithLove"},{"punter":1,"score":11,"team":"Go-TEAMPLOWULTRAFORCE5Fox1"},{"punter":2,"score":242,"team":"uguu.org"},{"punter":3,"score":104,"team":"Enoch Root"}]},
 {"statuses":[{"punter":0,"active":true,"options":4},{"punter":1,"active":true,"options":4},{"punter":2,"active":true,"options":0},{"punter":3,"active":false}]},
  {"stop":{}}]}

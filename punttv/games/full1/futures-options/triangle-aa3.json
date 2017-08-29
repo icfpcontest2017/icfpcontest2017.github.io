@@ -3,7 +3,7 @@
 {"settings":{"options":true,"futures":true}},
 {"map":"triangle.json"},
 {"punter":0,"team":"owl"},
-{"punter":1,"team":"FromRedmondWithLove_100"},
+{"punter":1,"team":"FromRedmondWithLove"},
 {"punter":2,"team":"The Pragmatic Russions"},
 {"punter":3,"team":"jabber.ru"},
 {"punter":0,"futures":[]},
@@ -93,7 +93,7 @@
 {"claim":{"punter":3,"source":18,"target":22}},
 {"claim":{"punter":0,"source":15,"target":17}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":5,"team":"owl"},{"punter":1,"score":715,"team":"FromRedmondWithLove_100"},{"punter":2,"score":18,"team":"The Pragmatic Russions"},{"punter":3,"score":1050,"team":"jabber.ru"}]},
+{"scores":[{"punter":0,"score":5,"team":"owl"},{"punter":1,"score":715,"team":"FromRedmondWithLove"},{"punter":2,"score":18,"team":"The Pragmatic Russions"},{"punter":3,"score":1050,"team":"jabber.ru"}]},
 {"futures":[{"punter":0,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":1,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":2,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]},{"punter":3,"scores":[{"mine":3,"score":0},{"mine":4,"score":0},{"mine":5,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"options":3},{"punter":1,"active":true,"options":3},{"punter":2,"active":true,"options":3},{"punter":3,"active":true,"options":0}]},
  {"stop":{}}]}

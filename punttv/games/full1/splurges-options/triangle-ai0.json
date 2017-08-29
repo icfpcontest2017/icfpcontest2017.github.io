@@ -3,7 +3,7 @@
 {"settings":{"splurges":true,"options":true}},
 {"map":"triangle.json"},
 {"punter":0,"team":"Udon"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"&#955; trac&#233;urs"},
 {"punter":3,"team":"The Blind Hen"},
 {"gameplay":"start"},
@@ -89,6 +89,6 @@
 {"claim":{"punter":3,"source":39,"target":41}},
 {"claim":{"punter":0,"source":39,"target":40}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":707,"team":"Udon"},{"punter":1,"score":929,"team":"HHP_159"},{"punter":2,"score":60,"team":"&#955; trac&#233;urs"},{"punter":3,"score":929,"team":"The Blind Hen"}]},
+{"scores":[{"punter":0,"score":707,"team":"Udon"},{"punter":1,"score":929,"team":"HHP"},{"punter":2,"score":60,"team":"&#955; trac&#233;urs"},{"punter":3,"score":929,"team":"The Blind Hen"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":0},{"punter":1,"active":true,"credit":0,"options":3},{"punter":2,"active":true,"credit":16,"options":3},{"punter":3,"active":true,"credit":0,"options":3}]},
  {"stop":{}}]}

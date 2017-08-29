@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"options":true}},
 {"map":"randomMedium.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"RagingMushrooms"},
 {"punter":2,"team":"301"},
 {"punter":3,"team":"perpertuum mobile"},
@@ -195,6 +195,6 @@
 {"claim":{"punter":1,"source":39,"target":96}},
 {"pass":{"punter":2}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":1447,"team":"FromRedmondWithLove_100"},{"punter":1,"score":5543,"team":"RagingMushrooms"},{"punter":2,"score":1393,"team":"301"},{"punter":3,"score":6643,"team":"perpertuum mobile"}]},
+{"scores":[{"punter":0,"score":1447,"team":"FromRedmondWithLove"},{"punter":1,"score":5543,"team":"RagingMushrooms"},{"punter":2,"score":1393,"team":"301"},{"punter":3,"score":6643,"team":"perpertuum mobile"}]},
 {"statuses":[{"punter":0,"active":true,"options":4},{"punter":1,"active":true,"options":4},{"punter":2,"active":true,"options":3},{"punter":3,"active":true,"options":0}]},
  {"stop":{}}]}

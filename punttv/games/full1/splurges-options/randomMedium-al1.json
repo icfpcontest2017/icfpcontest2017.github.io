@@ -3,7 +3,7 @@
 {"settings":{"splurges":true,"options":true}},
 {"map":"randomMedium.json"},
 {"punter":0,"team":"Codermal"},
-{"punter":1,"team":"FromRedmondWithLove_100"},
+{"punter":1,"team":"FromRedmondWithLove"},
 {"punter":2,"team":"udfew"},
 {"punter":3,"team":"kstm.org"},
 {"gameplay":"start"},
@@ -197,6 +197,6 @@
 {"claim":{"punter":2,"source":4,"target":55}},
 {"gameplay":"stop"},
 {"pass":{"punter":0}},
-{"scores":[{"punter":0,"score":1,"team":"Codermal"},{"punter":1,"score":14,"team":"FromRedmondWithLove_100"},{"punter":2,"score":7704,"team":"udfew"},{"punter":3,"score":9701,"team":"kstm.org"}]},
+{"scores":[{"punter":0,"score":1,"team":"Codermal"},{"punter":1,"score":14,"team":"FromRedmondWithLove"},{"punter":2,"score":7704,"team":"udfew"},{"punter":3,"score":9701,"team":"kstm.org"}]},
 {"statuses":[{"punter":0,"active":false},{"punter":1,"active":true,"credit":44,"options":4},{"punter":2,"active":true,"credit":1,"options":0},{"punter":3,"active":true,"credit":0,"options":1}]},
  {"stop":{}}]}

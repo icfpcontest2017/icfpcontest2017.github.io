@@ -5,7 +5,7 @@
 {"punter":0,"team":"Embedded Cloud Puntifictation"},
 {"punter":1,"team":"All your lambda are belong to us"},
 {"punter":2,"team":"Die Zwei Nerdigen Drei"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"zombie":{"punter":2}},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":90,"target":91}},
@@ -197,6 +197,6 @@
 {"pass":{"punter":2}},
 {"gameplay":"stop"},
 {"pass":{"punter":2}},
-{"scores":[{"punter":0,"score":5,"team":"Embedded Cloud Puntifictation"},{"punter":1,"score":8700,"team":"All your lambda are belong to us"},{"punter":2,"score":0,"team":"Die Zwei Nerdigen Drei"},{"punter":3,"score":7872,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":5,"team":"Embedded Cloud Puntifictation"},{"punter":1,"score":8700,"team":"All your lambda are belong to us"},{"punter":2,"score":0,"team":"Die Zwei Nerdigen Drei"},{"punter":3,"score":7872,"team":"HHP"}]},
 {"statuses":[{"punter":0,"active":true,"credit":22},{"punter":1,"active":true,"credit":0},{"punter":2,"active":false},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

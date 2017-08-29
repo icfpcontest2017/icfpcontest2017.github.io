@@ -4,7 +4,7 @@
 {"map":"circle.json"},
 {"punter":0,"team":"WinterMUTE"},
 {"punter":1,"team":"SML/Punter"},
-{"punter":2,"team":"FromRedmondWithLove_100"},
+{"punter":2,"team":"FromRedmondWithLove"},
 {"punter":3,"team":"Sideways Spider"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":17,"target":18}},
@@ -75,6 +75,6 @@
 {"claim":{"punter":0,"source":1,"target":2}},
 {"gameplay":"stop"},
 {"pass":{"punter":3}},
-{"scores":[{"punter":0,"score":318,"team":"WinterMUTE"},{"punter":1,"score":242,"team":"SML/Punter"},{"punter":2,"score":268,"team":"FromRedmondWithLove_100"},{"punter":3,"score":9,"team":"Sideways Spider"}]},
+{"scores":[{"punter":0,"score":318,"team":"WinterMUTE"},{"punter":1,"score":242,"team":"SML/Punter"},{"punter":2,"score":268,"team":"FromRedmondWithLove"},{"punter":3,"score":9,"team":"Sideways Spider"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":false}]},
  {"stop":{}}]}

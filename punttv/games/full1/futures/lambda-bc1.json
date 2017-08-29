@@ -4,7 +4,7 @@
 {"map":"lambda.json"},
 {"punter":0,"team":"The Flux Ambassadors"},
 {"punter":1,"team":"MindSweeper"},
-{"punter":2,"team":"FromRedmondWithLove_100"},
+{"punter":2,"team":"FromRedmondWithLove"},
 {"punter":3,"team":"perpertuum mobile"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -73,7 +73,7 @@
 {"claim":{"punter":3,"source":19,"target":22}},
 {"claim":{"punter":0,"source":15,"target":13}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":224,"team":"The Flux Ambassadors"},{"punter":1,"score":552,"team":"MindSweeper"},{"punter":2,"score":307,"team":"FromRedmondWithLove_100"},{"punter":3,"score":222,"team":"perpertuum mobile"}]},
+{"scores":[{"punter":0,"score":224,"team":"The Flux Ambassadors"},{"punter":1,"score":552,"team":"MindSweeper"},{"punter":2,"score":307,"team":"FromRedmondWithLove"},{"punter":3,"score":222,"team":"perpertuum mobile"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

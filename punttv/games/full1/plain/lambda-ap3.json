@@ -3,7 +3,7 @@
 {"settings":{}},
 {"map":"lambda.json"},
 {"punter":0,"team":"All your lambda are belong to us"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"The Higher Order of Zeuxis"},
 {"punter":3,"team":"okeydaj"},
 {"gameplay":"start"},
@@ -69,6 +69,6 @@
 {"claim":{"punter":3,"source":4,"target":21}},
 {"claim":{"punter":0,"source":36,"target":6}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":792,"team":"All your lambda are belong to us"},{"punter":1,"score":696,"team":"HHP_159"},{"punter":2,"score":76,"team":"The Higher Order of Zeuxis"},{"punter":3,"score":590,"team":"okeydaj"}]},
+{"scores":[{"punter":0,"score":792,"team":"All your lambda are belong to us"},{"punter":1,"score":696,"team":"HHP"},{"punter":2,"score":76,"team":"The Higher Order of Zeuxis"},{"punter":3,"score":590,"team":"okeydaj"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

@@ -4,7 +4,7 @@
 {"map":"lambda.json"},
 {"punter":0,"team":"uni"},
 {"punter":1,"team":"Oak"},
-{"punter":2,"team":"HHP_159"},
+{"punter":2,"team":"HHP"},
 {"punter":3,"team":"THIRTEEN"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
@@ -73,7 +73,7 @@
 {"claim":{"punter":3,"source":1,"target":25}},
 {"pass":{"punter":0}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":1,"team":"uni"},{"punter":1,"score":674,"team":"Oak"},{"punter":2,"score":199,"team":"HHP_159"},{"punter":3,"score":186,"team":"THIRTEEN"}]},
+{"scores":[{"punter":0,"score":1,"team":"uni"},{"punter":1,"score":674,"team":"Oak"},{"punter":2,"score":199,"team":"HHP"},{"punter":3,"score":186,"team":"THIRTEEN"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":15},{"punter":1,"active":true,"credit":0},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

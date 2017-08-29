@@ -3,7 +3,7 @@
 {"settings":{}},
 {"map":"randomMedium.json"},
 {"punter":0,"team":"?!?"},
-{"punter":1,"team":"HHP_159"},
+{"punter":1,"team":"HHP"},
 {"punter":2,"team":"punteros"},
 {"punter":3,"team":"Russian Horse Cup"},
 {"gameplay":"start"},
@@ -195,6 +195,6 @@
 {"claim":{"punter":1,"source":29,"target":12}},
 {"claim":{"punter":2,"source":58,"target":29}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":1131,"team":"?!?"},{"punter":1,"score":8596,"team":"HHP_159"},{"punter":2,"score":4461,"team":"punteros"},{"punter":3,"score":979,"team":"Russian Horse Cup"}]},
+{"scores":[{"punter":0,"score":1131,"team":"?!?"},{"punter":1,"score":8596,"team":"HHP"},{"punter":2,"score":4461,"team":"punteros"},{"punter":3,"score":979,"team":"Russian Horse Cup"}]},
 {"statuses":[{"punter":0,"active":true},{"punter":1,"active":true},{"punter":2,"active":true},{"punter":3,"active":true}]},
  {"stop":{}}]}

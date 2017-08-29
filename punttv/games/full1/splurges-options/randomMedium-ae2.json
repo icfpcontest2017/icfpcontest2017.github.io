@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"splurges":true,"options":true}},
 {"map":"randomMedium.json"},
-{"punter":0,"team":"HHP_159"},
+{"punter":0,"team":"HHP"},
 {"punter":1,"team":"shinh11"},
 {"punter":2,"team":"Eger a Marson"},
 {"punter":3,"team":"GennAI"},
@@ -196,6 +196,6 @@
 {"claim":{"punter":2,"source":42,"target":72}},
 {"gameplay":"stop"},
 {"pass":{"punter":1}},
-{"scores":[{"punter":0,"score":3631,"team":"HHP_159"},{"punter":1,"score":0,"team":"shinh11"},{"punter":2,"score":6161,"team":"Eger a Marson"},{"punter":3,"score":6928,"team":"GennAI"}]},
+{"scores":[{"punter":0,"score":3631,"team":"HHP"},{"punter":1,"score":0,"team":"shinh11"},{"punter":2,"score":6161,"team":"Eger a Marson"},{"punter":3,"score":6928,"team":"GennAI"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":4},{"punter":1,"active":false},{"punter":2,"active":true,"credit":0,"options":4},{"punter":3,"active":true,"credit":0,"options":4}]},
  {"stop":{}}]}

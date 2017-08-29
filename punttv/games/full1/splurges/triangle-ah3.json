@@ -5,7 +5,7 @@
 {"punter":0,"team":"Wile E."},
 {"punter":1,"team":"The Blind Hen"},
 {"punter":2,"team":"Sideways Spider"},
-{"punter":3,"team":"HHP_159"},
+{"punter":3,"team":"HHP"},
 {"gameplay":"start"},
 {"claim":{"punter":0,"source":4,"target":29}},
 {"claim":{"punter":1,"source":36,"target":4}},
@@ -91,6 +91,6 @@
 {"claim":{"punter":0,"source":23,"target":21}},
 {"gameplay":"stop"},
 {"pass":{"punter":2}},
-{"scores":[{"punter":0,"score":1090,"team":"Wile E."},{"punter":1,"score":1041,"team":"The Blind Hen"},{"punter":2,"score":0,"team":"Sideways Spider"},{"punter":3,"score":727,"team":"HHP_159"}]},
+{"scores":[{"punter":0,"score":1090,"team":"Wile E."},{"punter":1,"score":1041,"team":"The Blind Hen"},{"punter":2,"score":0,"team":"Sideways Spider"},{"punter":3,"score":727,"team":"HHP"}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":0},{"punter":2,"active":false},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

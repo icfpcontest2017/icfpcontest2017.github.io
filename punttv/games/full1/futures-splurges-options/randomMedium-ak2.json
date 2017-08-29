@@ -5,7 +5,7 @@
 {"punter":0,"team":"udfew"},
 {"punter":1,"team":"Russian Horse Cup"},
 {"punter":2,"team":"cashto"},
-{"punter":3,"team":"FromRedmondWithLove_100"},
+{"punter":3,"team":"FromRedmondWithLove"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
 {"punter":2,"futures":[]},
@@ -202,7 +202,7 @@
 {"pass":{"punter":1}},
 {"claim":{"punter":2,"source":8,"target":35}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":2694,"team":"udfew"},{"punter":1,"score":972,"team":"Russian Horse Cup"},{"punter":2,"score":2938,"team":"cashto"},{"punter":3,"score":4908,"team":"FromRedmondWithLove_100"}]},
+{"scores":[{"punter":0,"score":2694,"team":"udfew"},{"punter":1,"score":972,"team":"Russian Horse Cup"},{"punter":2,"score":2938,"team":"cashto"},{"punter":3,"score":4908,"team":"FromRedmondWithLove"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":3,"options":0},{"punter":1,"active":true,"credit":32,"options":4},{"punter":2,"active":true,"credit":0,"options":0},{"punter":3,"active":true,"credit":0,"options":4}]},
  {"stop":{}}]}

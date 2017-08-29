@@ -2,7 +2,7 @@
 [{"start":{}},
 {"settings":{"splurges":true,"futures":true}},
 {"map":"randomMedium.json"},
-{"punter":0,"team":"FromRedmondWithLove_100"},
+{"punter":0,"team":"FromRedmondWithLove"},
 {"punter":1,"team":"codingteam"},
 {"punter":2,"team":"Embedded Cloud Puntifictation"},
 {"punter":3,"team":"lambda-daddy"},
@@ -199,7 +199,7 @@
 {"pass":{"punter":1}},
 {"claim":{"punter":2,"source":28,"target":88}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":3099,"team":"FromRedmondWithLove_100"},{"punter":1,"score":577,"team":"codingteam"},{"punter":2,"score":0,"team":"Embedded Cloud Puntifictation"},{"punter":3,"score":1518,"team":"lambda-daddy"}]},
+{"scores":[{"punter":0,"score":3099,"team":"FromRedmondWithLove"},{"punter":1,"score":577,"team":"codingteam"},{"punter":2,"score":0,"team":"Embedded Cloud Puntifictation"},{"punter":3,"score":1518,"team":"lambda-daddy"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0},{"punter":1,"active":true,"credit":35},{"punter":2,"active":true,"credit":0},{"punter":3,"active":true,"credit":0}]},
  {"stop":{}}]}

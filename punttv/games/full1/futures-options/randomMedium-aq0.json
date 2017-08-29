@@ -5,7 +5,7 @@
 {"punter":0,"team":"uguu.org"},
 {"punter":1,"team":"NCPLUG"},
 {"punter":2,"team":"kontur.ru"},
-{"punter":3,"team":"FromRedmondWithLove_100"},
+{"punter":3,"team":"FromRedmondWithLove"},
 {"punter":0,"futures":[]},
 {"punter":1,"futures":[]},
 {"punter":2,"futures":[{"source":10,"target":75},{"source":33,"target":47},{"source":60,"target":47}]},
@@ -199,7 +199,7 @@
 {"claim":{"punter":1,"source":0,"target":56}},
 {"pass":{"punter":2}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":3265,"team":"uguu.org"},{"punter":1,"score":7189,"team":"NCPLUG"},{"punter":2,"score":-10,"team":"kontur.ru"},{"punter":3,"score":2396,"team":"FromRedmondWithLove_100"}]},
+{"scores":[{"punter":0,"score":3265,"team":"uguu.org"},{"punter":1,"score":7189,"team":"NCPLUG"},{"punter":2,"score":-10,"team":"kontur.ru"},{"punter":3,"score":2396,"team":"FromRedmondWithLove"}]},
 {"futures":[{"punter":0,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":1,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]},{"punter":2,"scores":[{"mine":10,"score":-125},{"mine":31,"score":0},{"mine":33,"score":64},{"mine":60,"score":-64}]},{"punter":3,"scores":[{"mine":10,"score":0},{"mine":31,"score":0},{"mine":33,"score":0},{"mine":60,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"options":0},{"punter":1,"active":true,"options":4},{"punter":2,"active":true,"options":4},{"punter":3,"active":true,"options":4}]},
  {"stop":{}}]}

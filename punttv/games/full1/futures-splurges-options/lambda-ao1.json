@@ -3,7 +3,7 @@
 {"settings":{"splurges":true,"options":true,"futures":true}},
 {"map":"lambda.json"},
 {"punter":0,"team":"Skobochka"},
-{"punter":1,"team":"FromRedmondWithLove_100"},
+{"punter":1,"team":"FromRedmondWithLove"},
 {"punter":2,"team":"Go-TEAMPLOWULTRAFORCE5Fox1"},
 {"punter":3,"team":"TBD"},
 {"punter":0,"futures":[{"source":22,"target":35},{"source":37,"target":18}]},
@@ -73,7 +73,7 @@
 {"claim":{"punter":3,"source":7,"target":35}},
 {"claim":{"punter":0,"source":10,"target":34}},
 {"gameplay":"stop"},
-{"scores":[{"punter":0,"score":1128,"team":"Skobochka"},{"punter":1,"score":671,"team":"FromRedmondWithLove_100"},{"punter":2,"score":10,"team":"Go-TEAMPLOWULTRAFORCE5Fox1"},{"punter":3,"score":658,"team":"TBD"}]},
+{"scores":[{"punter":0,"score":1128,"team":"Skobochka"},{"punter":1,"score":671,"team":"FromRedmondWithLove"},{"punter":2,"score":10,"team":"Go-TEAMPLOWULTRAFORCE5Fox1"},{"punter":3,"score":658,"team":"TBD"}]},
 {"futures":[{"punter":0,"scores":[{"mine":22,"score":125},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":125}]},{"punter":1,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":2,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]},{"punter":3,"scores":[{"mine":22,"score":0},{"mine":27,"score":0},{"mine":32,"score":0},{"mine":37,"score":0}]}]},
 {"statuses":[{"punter":0,"active":true,"credit":0,"options":4},{"punter":1,"active":true,"credit":0,"options":4},{"punter":2,"active":true,"credit":1,"options":4},{"punter":3,"active":true,"credit":0,"options":0}]},
  {"stop":{}}]}
