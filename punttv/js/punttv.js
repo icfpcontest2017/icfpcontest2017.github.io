@@ -213,6 +213,9 @@ function GameConsole (consoleContainer, players) {
     } else if (move.hasOwnProperty('pass')) {
       writeMove('PASS', move.pass.punter, i);
     };
+    if (move.hasOwnProperty('confused')) {
+      this.logConfused(move.confused.punter, move.confused.claimed_punter);
+    }
     if (move.hasOwnProperty('pass') && move.hasOwnProperty('timeout')) {
       this.logTimeout(move.pass.punter);
     }
@@ -223,6 +226,18 @@ function GameConsole (consoleContainer, players) {
       move.options.forEach(this.logOption);
     }
   };
+
+  this.logConfused = (punter, claimed_punter) => {
+    const realSpan = document.createElement('span');
+    realSpan.innerHTML = players[punter].name;
+    realSpan.style.color = players[punter].colour;
+
+    const claimedSpan = document.createElement('span');
+    claimedSpan.innerHTML = players[claimed_punter].name;
+    claimedSpan.style.color = players[claimed_punter].colour;
+
+    write([' ', realSpan, " thinks they are ", claimedSpan])
+  }
 
   this.logTimeout = (punter) => {
     const name =  players[punter].name;
@@ -520,6 +535,9 @@ function Replay (game, speed, progressBar, playBtnIcon, legendContainer, console
     canvas.drawMove(move, undo);
 
     if (undo) {
+      if (move.confused) {
+        out.removeLine();
+      }
       if (move.options) {
         move.options.forEach(out.removeLine);
       }
@@ -614,8 +632,8 @@ function loadGame (url, successCallback, errorCallback) {
     let playing = false;
     let timeout = false;
 
-    // inside gameplay convert zombie messages into passes
-    // and annotate passes with timeout messages
+    // inside gameplay convert zombie messages into passes and
+    // annotate passes with timeout messages
     json.forEach((step) => {
       if (step.hasOwnProperty('gameplay')) {
         if (step.gameplay == 'start') {
@@ -656,6 +674,7 @@ function loadGame (url, successCallback, errorCallback) {
       return true;
     });
 
+
     Object.keys(json[1].settings).forEach(k => options[k] = json[1].settings[k]);
     options['map'] = json[2].map;
 
@@ -683,9 +702,50 @@ function loadGame (url, successCallback, errorCallback) {
       }
     }
 
+    // json[0] is now at the start of gameplay
+
+    // Fix punter IDs, to account for identity confusion
+    let punter_id = 0;
+    const player_count = Object.keys(players).length;
+    json.forEach((step) => {
+      punter_id = punter_id % player_count;
+      let claimed_id = punter_id;
+      // If we're a move
+      if (step.hasOwnProperty('claim')) {
+        claimed_id = step.claim.punter;
+        step.claim = {
+          punter: punter_id,
+          source: step.claim.source,
+          target: step.claim.target
+        };
+      } else if (step.hasOwnProperty('pass')) {
+        claimed_id = step.pass.punter;
+        step.pass = {
+          punter: punter_id
+        };
+      } else if (step.hasOwnProperty('splurge')) {
+        claimed_id = step.splurge.punter;
+        step.splurge = {
+          punter: punter_id,
+          route: step.splurge.route
+        };
+      } else if (step.hasOwnProperty('option')) {
+        claimed_id = step.option.punter;
+        step.option = {
+          punter: punter_id,
+          source: step.option.source,
+          target: step.option.target
+        }
+      }
+      if (claimed_id != punter_id) {
+        step.confused = {punter:punter_id, claimed_punter:claimed_id};
+      }
+      punter_id++;
+    });
+
     const stop = json.pop();
 
-    // FIXME: do something with the statuses
+    // collect final statuses of punters
     const statuses = json.pop().statuses;
     statuses.forEach(s => {
       if (s.options != null) {
@@ -694,9 +754,9 @@ function loadGame (url, successCallback, errorCallback) {
       if (s.credit != null) {
         players[s.punter].meta['Credit'] = s.credit;
       }
-      // players[s.punter].meta['Active'] = Boolean(s.active);
     });
 
+    // collect final future scores for each punter
     if (options.futures) {
       const futuresList = json.pop().futures;
       futuresList.forEach(f => {
