@@ -1,5 +1,4 @@
-const EDGE_DEFAULT_COLOR = '#000099';
-const EDGE_DEFAULT_WIDTH = 35;
+const EDGE_DEFAULT_COLOR = '#0000FF';
 
 /* Courtesy of Material Design */
 const colours = [
