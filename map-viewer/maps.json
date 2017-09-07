@@ -4,7 +4,7 @@
    { "filename": "../maps/circle.json", "name": "Circle", "num_nodes": 27, "num_edges": 65},
    { "filename": "../maps/edinburgh-10000.json", "name": "Edinburgh", "num_nodes": 7357, "num_edges": 10000},
    { "filename": "../maps/gothenburg.json", "name": "Gothenburg", "num_nodes": 1175, "num_edges": 2234},
-   { "filename": "../maps/icfp-coauthors.json", "name": "ICFP coauthors", "num_nodes": 921, "num_edges": 3425},
+   { "filename": "../maps/icfp-coauthors-pj.json", "name": "ICFP coauthors", "num_nodes": 921, "num_edges": 3425},
    { "filename": "../maps/junction.json", "name": "Junction", "num_nodes": 534, "num_edges": 824},
    { "filename": "../maps/lambda.json", "name": "Lambda", "num_nodes": 37, "num_edges": 60},
    { "filename": "../maps/nara.json", "name": "Nara", "num_nodes": 1560, "num_edges": 2197},
