@@ -13,7 +13,7 @@
    { "filename": "../maps/randomSparse.json", "name": "Random2", "num_nodes": 86, "num_edges": 123},
    { "filename": "../maps/star.json", "name": "Copenhagen", "num_nodes": 1171, "num_edges": 1470},
    { "filename": "../maps/triangle.json", "name": "Sierpinski triangle", "num_nodes": 42, "num_edges": 81},
-   { "filename": "../maps/tube.json", "name": "London underground", "num_nodes": 301, "num_edges": 386}
-   { "filename": "../maps/vancouver.json", "name": "Vancouver", "num_nodes": 1986, "num_edges": 3681},
+   { "filename": "../maps/tube.json", "name": "London underground", "num_nodes": 301, "num_edges": 386},
+   { "filename": "../maps/vancouver.json", "name": "Vancouver", "num_nodes": 1986, "num_edges": 3681}
   ]
 }
