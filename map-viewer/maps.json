@@ -2,14 +2,18 @@
   "maps": [
    { "filename": "../maps/boston.json", "name": "Boston", "num_nodes": 488, "num_edges": 945},
    { "filename": "../maps/circle.json", "name": "Circle", "num_nodes": 27, "num_edges": 65},
+   { "filename": "../maps/edinburgh-10000.json", "name": "Edinburgh", "num_nodes": 7357, "num_edges": 10000},
    { "filename": "../maps/gothenburg.json", "name": "Gothenburg", "num_nodes": 1175, "num_edges": 2234},
+   { "filename": "../maps/icfp-coauthors.json", "name": "ICFP coauthors", "num_nodes": 921, "num_edges": 3425},
    { "filename": "../maps/junction.json", "name": "Junction", "num_nodes": 534, "num_edges": 824},
    { "filename": "../maps/lambda.json", "name": "Lambda", "num_nodes": 37, "num_edges": 60},
    { "filename": "../maps/nara.json", "name": "Nara", "num_nodes": 1560, "num_edges": 2197},
+   { "filename": "../maps/oxford-10000.json", "name": "Oxford", "num_nodes": 6658, "num_edges": 10000},
    { "filename": "../maps/randomMedium.json", "name": "Random1", "num_nodes": 97, "num_edges": 187},
    { "filename": "../maps/randomSparse.json", "name": "Random2", "num_nodes": 86, "num_edges": 123},
    { "filename": "../maps/star.json", "name": "Copenhagen", "num_nodes": 1171, "num_edges": 1470},
    { "filename": "../maps/triangle.json", "name": "Sierpinski triangle", "num_nodes": 42, "num_edges": 81},
    { "filename": "../maps/tube.json", "name": "London underground", "num_nodes": 301, "num_edges": 386}
+   { "filename": "../maps/vancouver.json", "name": "Vancouver", "num_nodes": 1986, "num_edges": 3681},
   ]
 }
