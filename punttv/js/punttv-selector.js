@@ -37,6 +37,18 @@ function initTableHeader(tbl) {
 
 }
 
+function makeMapName(splitFile) {
+  const end = splitFile.length - 1;
+  let str = "";
+  for (let i = 0; i < end; i++) {
+    str = str + splitFile[i];
+    if (i < end - 1) {
+      str = str + "-";
+    }
+  }
+  return str;
+}
+
 function displaySummaryTable(round_num, json) {
   // Create the table element
   const tbl_container = document.getElementById("tab-content-container");
@@ -84,12 +96,13 @@ function displaySummaryTable(round_num, json) {
             game[key].forEach((gameName) => {
                 const splitName = gameName.split('/');
                 const splitFile = (splitName[splitName.length - 1]).split('-');
-                const num = (new RegExp('[a-z]*([0-9]*).json')).exec(splitFile[1])[1];
+                const num = (new RegExp('[a-z]*([0-9]*).json')).exec(splitFile[splitFile.length - 1])[1];
                 //const displayName = capitalize(splitFile[0]) + ", play " + num;
                 if (cur !== splitFile[0]) {
                     cur = splitFile[0];
                     i = i + 1;
-                    games.push({'map': cur, 'plays':[]});
+                    const mapName = makeMapName(splitFile);
+                    games.push({'map': mapName, 'plays':[]});
                 }
                 games[i].plays.push({'ref': "tv.html?game=" + gameName, 'number': num});
             });

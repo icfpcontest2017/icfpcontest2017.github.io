@@ -1,20 +1,20 @@
 const EDGE_DEFAULT_COLOR = '#0000FF';
 
 /* Courtesy of Material Design */
-const colours = [
+const colours = window.colours || [
   [ '#F44336', '#FF8A80', '#FF5252', '#FF1744', '#D50000', '#B71C1C' ],
   [ '#03A9F4', '#80D8FF', '#40C4FF', '#00B0FF', '#0091EA', '#01579B' ],
   [ '#8BC34A', '#CCFF90', '#B2FF59', '#76FF03', '#64DD17', '#33691E' ],
   [ '#FF9800', '#FFD180', '#FFAB40', '#FF9100', '#FF6D00', '#E65100' ],
   [ '#E91E63', '#FF80AB', '#FF4081', '#F50057', '#C51162', '#880E4F' ],
   [ '#00BCD4', '#84FFFF', '#18FFFF', '#00E5FF', '#00B8D4', '#006064' ],
-  [ '#CDDC39', '#F4FF81', '#EEFF41', '#C6FF00', '#AEEA00', '#827717' ],
+  [ '#CDDC39', '#F4FF81', '#EEFF41' , '#C6FF00', '#AEEA00', '#827717' ],
   [ '#FF5722', '#FF9E80', '#FF6E40', '#FF3D00', '#DD2C00', '#BF360C' ],
   [ '#9C27B0', '#EA80FC', '#E040FB', '#D500F9', '#AA00FF', '#4A148C' ],
   [ '#009688', '#A7FFEB', '#64FFDA', '#1DE9B6', '#00BFA5', '#004D40' ],
   [ '#FFEB3B', '#FFFF8D', '#FFFF00', '#FFEA00', '#FFD600', '#F57F17' ],
   [ '#795548', '#BCAAA4', '#8D6E63', '#795548', '#5D4037', '#3E2723' ],
-  [ '#673AB7', '#B388FF', '#7C4DFF', '#651FFF', '#6200EA', '#D1C4E9' ],
+  [ '#673AB7', '#D1C4E9', '#B388FF', '#7C4DFF', '#651FFF', '#6200EA' ],
   [ '#4CAF50', '#B9F6CA', '#69F0AE', '#00E676', '#00C853', '#1B5E20' ],
   [ '#FFC107', '#FFE57F', '#FFD740', '#FFC400', '#FFAB00', '#FF6F00' ],
   [ '#607D8B', '#CFD8DC', '#90A4AE', '#546E7A', '#455A64', '#263238' ],
@@ -389,6 +389,7 @@ function Legend (legendContainer, canvas) {
           chevron.classList.add('fa-chevron-up');
           chevron.classList.remove('fa-chevron-down');
         }
+        e.stopPropagation();
       });
       li.addEventListener('mouseover', (e) => {
         canvas.graph.highlightEdge(`[owner=${p.id}]`);
@@ -814,8 +815,18 @@ function initialise() {
   const legendContainer = document.getElementById('legend')
   const labelsCheckbox = document.getElementById('labels')
   const playBtnIcon = document.getElementById('playBtn').querySelector('i');
+  const controls = document.getElementById('controls');
 
   let replay;
+
+  consoleContainer.addEventListener('click', (e) => {
+    consoleContainer.classList.toggle('open');
+    controls.classList.toggle('high');
+  });
+
+  legendContainer.addEventListener('click', (e) => {
+    legendContainer.classList.toggle('open');
+  });
 
   function keyboardHandler (e) {
     if (replay) {
